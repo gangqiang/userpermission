@@ -21,7 +21,7 @@ namespace UserPermission.Web.Handler
             context.Response.ContentType = "text/plain";
             string strContent = string.Empty;
             string strAction = CommonMethod.FinalString(context.Request.QueryString["action"]);
-            switch (strAction)
+            switch (strAction) 
             {
                 case "LoadCompany":
                     strContent = LoadCompany(context);
