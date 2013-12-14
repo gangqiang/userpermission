@@ -6,6 +6,7 @@ using System.Web;
 namespace UserPermission.Web
 {
     public class Class1
-    {  
+    {   
+         
     } 
 }
