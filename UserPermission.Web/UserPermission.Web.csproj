@@ -1,0 +1,392 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{B444CA7E-B2A5-44FC-8952-2EED30F2A562}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>UserPermission.Web</RootNamespace>
+    <AssemblyName>UserPermission.Web</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.JScript" />
+    <Reference Include="Newtonsoft.Json, Version=1.3.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>RefrenceDll\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.Mobile" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Documents\Logs\Err2012-01-05.txt" />
+    <Content Include="Documents\Logs\Err2012-01-06.txt" />
+    <Content Include="Documents\Logs\Err2012-01-07.txt" />
+    <Content Include="Documents\Logs\Info2012-01-05.txt" />
+    <Content Include="Documents\Logs\Info2012-01-06.txt" />
+    <Content Include="Documents\Logs\Info2012-01-07.txt" />
+    <Content Include="Global.asax" />
+    <Content Include="Login.aspx" />
+    <Content Include="Pages\Init\CompanyRelateAdd.aspx" />
+    <Content Include="Pages\Init\CompanyRelateManage.aspx" />
+    <Content Include="Pages\Init\ProductAdd.aspx" />
+    <Content Include="Pages\Init\ProductManage.aspx" />
+    <Content Include="Pages\Init\ProjectAdd.aspx" />
+    <Content Include="Pages\Init\ProjectFunAdd.aspx" />
+    <Content Include="Pages\Init\ProjectFunManage.aspx" />
+    <Content Include="Pages\Init\ProjectManage.aspx" />
+    <Content Include="Pages\Service\AccountAdd.aspx" />
+    <Content Include="Pages\Service\AccountManage.aspx" />
+    <Content Include="Pages\Service\CompanyGroupAdd.aspx" />
+    <Content Include="Pages\Service\CompanyGroupManage.aspx" />
+    <Content Include="Pages\Service\FunMenuEdit.aspx" />
+    <Content Include="Pages\Service\FunMenuManage.aspx" />
+    <Content Include="Pages\Service\RoleAdd.aspx" />
+    <Content Include="Pages\Service\RoleManage.aspx" />
+    <Content Include="RefrenceDll\Common.Logging.dll" />
+    <Content Include="RefrenceDll\Common.Logging.Log4Net.dll" />
+    <Content Include="RefrenceDll\log4net.dll" />
+    <Content Include="RefrenceDll\Microsoft.Practices.EnterpriseLibrary.Common.dll" />
+    <Content Include="RefrenceDll\Microsoft.Practices.EnterpriseLibrary.Data.dll" />
+    <Content Include="RefrenceDll\Microsoft.Practices.ObjectBuilder.dll" />
+    <Content Include="RefrenceDll\Newtonsoft.Json.dll" />
+    <Content Include="RefrenceDll\SAMURAI.Data.dll" />
+    <Content Include="Resource\images\bt.gif" />
+    <Content Include="Resource\images\btn.png" />
+    <Content Include="Resource\images\head.gif" />
+    <Content Include="Resource\images\onCorrect.gif" />
+    <Content Include="Resource\images\onError.gif" />
+    <Content Include="Resource\images\onFocus.gif" />
+    <Content Include="Resource\images\onLoad.gif" />
+    <Content Include="Resource\images\onShow.gif" />
+    <Content Include="Resource\images\onSuccess.gif" />
+    <Content Include="Resource\images\searchthead2.gif" />
+    <Content Include="Resource\images\searchthead.gif" />
+    <Content Include="Resource\images\tree\close.gif" />
+    <Content Include="Resource\images\tree\folder.gif" />
+    <Content Include="Resource\images\tree\folderopen.gif" />
+    <Content Include="Resource\images\tree\line1.gif" />
+    <Content Include="Resource\images\tree\line2.gif" />
+    <Content Include="Resource\images\tree\line3.gif" />
+    <Content Include="Resource\images\tree\minus3.gif" />
+    <Content Include="Resource\images\tree\open.gif" />
+    <Content Include="Resource\images\tree\page.gif" />
+    <Content Include="Resource\images\tree\plus_over3.gif" />
+    <Content Include="Resource\Scripts\formValidator-4.0.1.js" />
+    <Content Include="Resource\Scripts\formValidator-4.0.1.min.js" />
+    <Content Include="Resource\Scripts\formValidator.js" />
+    <Content Include="Resource\Scripts\formValidatorRegex-4.0.1.js" />
+    <Content Include="Resource\Scripts\formValidatorRegex.js" />
+    <Content Include="Resource\Scripts\formValidator_min.js" />
+    <Content Include="Resource\Scripts\jquery-1.7.1.min.js" />
+    <Content Include="Resource\Scripts\jquery.treeview\jquery.treeview.async.js" />
+    <Content Include="Resource\Scripts\jquery.treeview\jquery.treeview.css" />
+    <Content Include="Resource\Scripts\jquery.treeview\jquery.treeview.js" />
+    <Content Include="Resource\Scripts\lhgdialog\images\bottom.png" />
+    <Content Include="Resource\Scripts\lhgdialog\images\d_btn.gif" />
+    <Content Include="Resource\Scripts\lhgdialog\images\left.png" />
+    <Content Include="Resource\Scripts\lhgdialog\images\leftBottom.png" />
+    <Content Include="Resource\Scripts\lhgdialog\images\leftTop.png" />
+    <Content Include="Resource\Scripts\lhgdialog\images\wait.gif" />
+    <Content Include="Resource\Scripts\lhgdialog\images\right.png" />
+    <Content Include="Resource\Scripts\lhgdialog\images\rightBottom.png" />
+    <Content Include="Resource\Scripts\lhgdialog\images\rightTop.png" />
+    <Content Include="Resource\Scripts\lhgdialog\images\top.png" />
+    <Content Include="Resource\Scripts\lhgdialog\images\xbtn.png" />
+    <Content Include="Resource\Scripts\lhgdialog\lhgdialog.css" />
+    <Content Include="Resource\Scripts\lhgdialog\lhgdialog.js" />
+    <Content Include="Resource\Scripts\lhgdialog\lhgdialog_source.js" />
+    <Content Include="Resource\Scripts\My97DatePicker\calendar.js" />
+    <Content Include="Resource\Scripts\My97DatePicker\config.js" />
+    <Content Include="Resource\Scripts\My97DatePicker\lang\en.js" />
+    <Content Include="Resource\Scripts\My97DatePicker\lang\zh-cn.js" />
+    <Content Include="Resource\Scripts\My97DatePicker\lang\zh-tw.js" />
+    <Content Include="Resource\Scripts\My97DatePicker\My97DatePicker.htm" />
+    <Content Include="Resource\Scripts\My97DatePicker\skin\blue\bg.jpg" />
+    <Content Include="Resource\Scripts\My97DatePicker\skin\blue\btnbg.jpg" />
+    <Content Include="Resource\Scripts\My97DatePicker\skin\blue\datepicker.css" />
+    <Content Include="Resource\Scripts\My97DatePicker\skin\blue\down.jpg" />
+    <Content Include="Resource\Scripts\My97DatePicker\skin\blue\img.gif" />
+    <Content Include="Resource\Scripts\My97DatePicker\skin\blue\left.gif" />
+    <Content Include="Resource\Scripts\My97DatePicker\skin\blue\navLeft.gif" />
+    <Content Include="Resource\Scripts\My97DatePicker\skin\blue\navRight.gif" />
+    <Content Include="Resource\Scripts\My97DatePicker\skin\blue\qs.jpg" />
+    <Content Include="Resource\Scripts\My97DatePicker\skin\blue\right.gif" />
+    <Content Include="Resource\Scripts\My97DatePicker\skin\blue\up.jpg" />
+    <Content Include="Resource\Scripts\My97DatePicker\skin\datePicker.gif" />
+    <Content Include="Resource\Scripts\My97DatePicker\skin\default\datepicker.css" />
+    <Content Include="Resource\Scripts\My97DatePicker\skin\default\img.gif" />
+    <Content Include="Resource\Scripts\My97DatePicker\skin\ext\datepicker.css" />
+    <Content Include="Resource\Scripts\My97DatePicker\skin\ext\dateselect.gif" />
+    <Content Include="Resource\Scripts\My97DatePicker\skin\ext\glass-bg.gif" />
+    <Content Include="Resource\Scripts\My97DatePicker\skin\ext\hd-sprite.gif" />
+    <Content Include="Resource\Scripts\My97DatePicker\skin\ext\img.gif" />
+    <Content Include="Resource\Scripts\My97DatePicker\skin\ext\left-btn.gif" />
+    <Content Include="Resource\Scripts\My97DatePicker\skin\ext\left-btn2.gif" />
+    <Content Include="Resource\Scripts\My97DatePicker\skin\ext\right-btn.gif" />
+    <Content Include="Resource\Scripts\My97DatePicker\skin\ext\right-btn2.gif" />
+    <Content Include="Resource\Scripts\My97DatePicker\skin\WdatePicker.css" />
+    <Content Include="Resource\Scripts\My97DatePicker\skin\whyGreen\bg.jpg" />
+    <Content Include="Resource\Scripts\My97DatePicker\skin\whyGreen\datepicker.css" />
+    <Content Include="Resource\Scripts\My97DatePicker\skin\whyGreen\img.gif" />
+    <Content Include="Resource\Scripts\My97DatePicker\WdatePicker.js" />
+    <Content Include="Resource\Scripts\My97DatePicker\开发包\lang\en.js" />
+    <Content Include="Resource\Scripts\My97DatePicker\开发包\lang\zh-cn.js" />
+    <Content Include="Resource\Scripts\My97DatePicker\开发包\lang\zh-tw.js" />
+    <Content Include="Resource\Scripts\My97DatePicker\开发包\readme.txt" />
+    <Content Include="Resource\Scripts\My97DatePicker\开发包\skin\datePicker.gif" />
+    <Content Include="Resource\Scripts\My97DatePicker\开发包\skin\default\datepicker.css" />
+    <Content Include="Resource\Scripts\My97DatePicker\开发包\skin\default\img.gif" />
+    <Content Include="Resource\Scripts\My97DatePicker\开发包\skin\WdatePicker.css" />
+    <Content Include="Resource\Scripts\My97DatePicker\开发包\skin\whyGreen\bg.jpg" />
+    <Content Include="Resource\Scripts\My97DatePicker\开发包\skin\whyGreen\datepicker.css" />
+    <Content Include="Resource\Scripts\My97DatePicker\开发包\skin\whyGreen\img.gif" />
+    <Content Include="Resource\Scripts\TZWidget.js" />
+    <Content Include="Resource\Styles\Site.css" />
+    <Content Include="Resource\Styles\validator.css" />
+    <Content Include="UC\PageBar.ascx" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="App_Code\BasePage.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="App_Code\PageChangeEventArgs.cs" />
+    <Compile Include="Handler\AjaxHandler.ashx.cs">
+      <DependentUpon>AjaxHandler.ashx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Init\CompanyRelateAdd.aspx.cs">
+      <DependentUpon>CompanyRelateAdd.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Init\CompanyRelateAdd.aspx.designer.cs">
+      <DependentUpon>CompanyRelateAdd.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Init\CompanyRelateManage.aspx.cs">
+      <DependentUpon>CompanyRelateManage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Init\CompanyRelateManage.aspx.designer.cs">
+      <DependentUpon>CompanyRelateManage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Init\ProductAdd.aspx.cs">
+      <DependentUpon>ProductAdd.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Init\ProductAdd.aspx.designer.cs">
+      <DependentUpon>ProductAdd.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Init\ProductManage.aspx.cs">
+      <DependentUpon>ProductManage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Init\ProductManage.aspx.designer.cs">
+      <DependentUpon>ProductManage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Init\ProjectAdd.aspx.cs">
+      <DependentUpon>ProjectAdd.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Init\ProjectAdd.aspx.designer.cs">
+      <DependentUpon>ProjectAdd.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Init\ProjectFunAdd.aspx.cs">
+      <DependentUpon>ProjectFunAdd.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Init\ProjectFunAdd.aspx.designer.cs">
+      <DependentUpon>ProjectFunAdd.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Init\ProjectFunManage.aspx.cs">
+      <DependentUpon>ProjectFunManage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Init\ProjectFunManage.aspx.designer.cs">
+      <DependentUpon>ProjectFunManage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Init\ProjectManage.aspx.cs">
+      <DependentUpon>ProjectManage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Init\ProjectManage.aspx.designer.cs">
+      <DependentUpon>ProjectManage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Service\AccountAdd.aspx.cs">
+      <DependentUpon>AccountAdd.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Service\AccountAdd.aspx.designer.cs">
+      <DependentUpon>AccountAdd.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Service\AccountManage.aspx.cs">
+      <DependentUpon>AccountManage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Service\AccountManage.aspx.designer.cs">
+      <DependentUpon>AccountManage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Service\CompanyGroupAdd.aspx.cs">
+      <DependentUpon>CompanyGroupAdd.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Service\CompanyGroupAdd.aspx.designer.cs">
+      <DependentUpon>CompanyGroupAdd.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Service\CompanyGroupManage.aspx.cs">
+      <DependentUpon>CompanyGroupManage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Service\CompanyGroupManage.aspx.designer.cs">
+      <DependentUpon>CompanyGroupManage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Service\FunMenuEdit.aspx.cs">
+      <DependentUpon>FunMenuEdit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Service\FunMenuEdit.aspx.designer.cs">
+      <DependentUpon>FunMenuEdit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Service\FunMenuManage.aspx.cs">
+      <DependentUpon>FunMenuManage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Service\FunMenuManage.aspx.designer.cs">
+      <DependentUpon>FunMenuManage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Service\RoleAdd.aspx.cs">
+      <DependentUpon>RoleAdd.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Service\RoleAdd.aspx.designer.cs">
+      <DependentUpon>RoleAdd.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Service\RoleManage.aspx.cs">
+      <DependentUpon>RoleManage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Service\RoleManage.aspx.designer.cs">
+      <DependentUpon>RoleManage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Site.master.cs">
+      <DependentUpon>Site.master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site.master.designer.cs">
+      <DependentUpon>Site.master</DependentUpon>
+    </Compile>
+    <Compile Include="UC\PageBar.ascx.cs">
+      <DependentUpon>PageBar.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UC\PageBar.ascx.designer.cs">
+      <DependentUpon>PageBar.ascx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+    <Folder Include="bin\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Handler\AjaxHandler.ashx" />
+    <None Include="Resource\Scripts\lhgdialog\images\Thumbs.db" />
+    <Content Include="Site.master" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\UserPermission.Bll\UserPermission.Bll.csproj">
+      <Project>{50D11819-8B64-40AE-A715-148FC8CFB1C6}</Project>
+      <Name>UserPermission.Bll</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\UserPermission.Model\UserPermission.Model.csproj">
+      <Project>{10F83170-E4C7-46E7-B770-1FC8C3D795D6}</Project>
+      <Name>UserPermission.Model</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\UserPermission.Utils\UserPermission.Utils.csproj">
+      <Project>{1E72F2C1-CB39-42AE-B15C-10F3CD3262BD}</Project>
+      <Name>UserPermission.Utils</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>14842</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

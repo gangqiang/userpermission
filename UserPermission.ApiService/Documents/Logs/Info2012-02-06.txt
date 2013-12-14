@@ -1,0 +1,8 @@
+2012-02-06 16:32:48:
+请求 内容:<?xml version="1.0" encoding="gbk"?><request><appkey>2AB867B5-200E-4D5E-9DBB-A355822C428C</appkey><action>AccountLogin</action><accountname>gangqiang</accountname><accountpwd>CCF7FB64D3999EB7B2A57C12C83E3281020FCF0A1CA4498F</accountpwd><companycode>117</companycode></request>,返回:<?xml version="1.0" encoding="gbk"?><response><result><code>202</code><desc><![CDATA[用户名和密码不匹配]]></desc></result></response>
+
+2012-02-06 16:33:06:
+请求 内容:<?xml version="1.0" encoding="gbk"?><request><appkey>2AB867B5-200E-4D5E-9DBB-A355822C428C</appkey><action>AccountLogin</action><accountname>gangqiang</accountname><accountpwd>2B5FD227C5C7CF36</accountpwd><companycode>117</companycode></request>,返回:<?xml version="1.0" encoding="gbk"?><response><result><code>0</code><desc><![CDATA[成功]]></desc><accountid>1</accountid><truename>王刚强</truename><companyid>1</companyid><companyname>苏州天泽</companyname><sharecompanyid>0</sharecompanyid><sharecompanyname>苏州天泽</sharecompanyname><groupid>001</groupid><groupname>苏州天泽</groupname><groupidn></groupidn><accountmenu><menuitem><menuid>221</menuid><name>实时监控</name>
+                                                 <linkurl>index.aspx</linkurl><parentid>0</parentid><sortnum>10</sortnum>
+                                                <desc>实时监控</desc></menuitem></accountmenu></result></response>
+

@@ -1,0 +1,108 @@
+2012-03-29 16:42:20:
+
+客户机IP:127.0.0.1
+错误地址:http://localhost:14842/favicon.ico
+异常信息:文件不存在。
+
+System.Web.HttpException: 文件不存在。
+   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2012-03-29 16:42:51:
+
+客户机IP:127.0.0.1
+错误地址:http://localhost:14842/favicon.ico
+异常信息:文件不存在。
+
+System.Web.HttpException: 文件不存在。
+   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2012-03-29 16:44:29:
+
+客户机IP:127.0.0.1
+错误地址:http://localhost:14842/Handler/AjaxHandler.ashx?action=IfRoleUse&RoleId=181&s=0.47774136089776603
+异常信息:ORA-00907: 缺失右括号
+
+
+System.Data.OracleClient.OracleException: ORA-00907: 缺失右括号
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteScalarInternal(Boolean needCLStype, Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteScalar()
+   在 SAMURAI.Data.Connection.OracleConnectionProvider.ExecuteScalar(String sql, ParamList parameters, CommandType commandType)
+   在 SAMURAI.Data.Connection.ConnectionBuilder.ExecuteScalar()
+   在 SAMURAI.Data.Connection.StaticConnectionProvider.ExecuteScalar(String sql, ParamList parameters)
+   在 UserPermission.Bll.AccountBusiness.IsRoleUse(String roleid) 位置 E:\UserPermission\UserPermission.Bll\AccountBusiness.cs:行号 378
+   在 UserPermission.Web.Handler.AjaxHandler.IfRoleUse(HttpContext context) 位置 E:\UserPermission\UserPermission.Web\Handler\AjaxHandler.ashx.cs:行号 144
+   在 UserPermission.Web.Handler.AjaxHandler.ProcessRequest(HttpContext context) 位置 E:\UserPermission\UserPermission.Web\Handler\AjaxHandler.ashx.cs:行号 54
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2012-03-29 16:44:29:
+
+客户机IP:127.0.0.1
+错误地址:http://localhost:14842/Handler/AjaxHandler.ashx?action=IfRoleUse&RoleId=181&s=0.8851348877595249
+异常信息:ORA-00907: 缺失右括号
+
+
+System.Data.OracleClient.OracleException: ORA-00907: 缺失右括号
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteScalarInternal(Boolean needCLStype, Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteScalar()
+   在 SAMURAI.Data.Connection.OracleConnectionProvider.ExecuteScalar(String sql, ParamList parameters, CommandType commandType)
+   在 SAMURAI.Data.Connection.ConnectionBuilder.ExecuteScalar()
+   在 SAMURAI.Data.Connection.StaticConnectionProvider.ExecuteScalar(String sql, ParamList parameters)
+   在 UserPermission.Bll.AccountBusiness.IsRoleUse(String roleid) 位置 E:\UserPermission\UserPermission.Bll\AccountBusiness.cs:行号 378
+   在 UserPermission.Web.Handler.AjaxHandler.IfRoleUse(HttpContext context) 位置 E:\UserPermission\UserPermission.Web\Handler\AjaxHandler.ashx.cs:行号 144
+   在 UserPermission.Web.Handler.AjaxHandler.ProcessRequest(HttpContext context) 位置 E:\UserPermission\UserPermission.Web\Handler\AjaxHandler.ashx.cs:行号 54
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2012-03-29 16:44:29:
+
+客户机IP:127.0.0.1
+错误地址:http://localhost:14842/Handler/AjaxHandler.ashx?action=IfRoleUse&RoleId=181&s=0.5780674946556925
+异常信息:ORA-00907: 缺失右括号
+
+
+System.Data.OracleClient.OracleException: ORA-00907: 缺失右括号
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteScalarInternal(Boolean needCLStype, Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteScalar()
+   在 SAMURAI.Data.Connection.OracleConnectionProvider.ExecuteScalar(String sql, ParamList parameters, CommandType commandType)
+   在 SAMURAI.Data.Connection.ConnectionBuilder.ExecuteScalar()
+   在 SAMURAI.Data.Connection.StaticConnectionProvider.ExecuteScalar(String sql, ParamList parameters)
+   在 UserPermission.Bll.AccountBusiness.IsRoleUse(String roleid) 位置 E:\UserPermission\UserPermission.Bll\AccountBusiness.cs:行号 378
+   在 UserPermission.Web.Handler.AjaxHandler.IfRoleUse(HttpContext context) 位置 E:\UserPermission\UserPermission.Web\Handler\AjaxHandler.ashx.cs:行号 144
+   在 UserPermission.Web.Handler.AjaxHandler.ProcessRequest(HttpContext context) 位置 E:\UserPermission\UserPermission.Web\Handler\AjaxHandler.ashx.cs:行号 54
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2012-03-29 16:46:31:
+
+客户机IP:127.0.0.1
+错误地址:http://localhost:14842/Handler/AjaxHandler.ashx?action=IfRoleUse&RoleId=181&s=0.7540994992354058
+异常信息:ORA-00907: 缺失右括号
+
+
+System.Data.OracleClient.OracleException: ORA-00907: 缺失右括号
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteScalarInternal(Boolean needCLStype, Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteScalar()
+   在 SAMURAI.Data.Connection.OracleConnectionProvider.ExecuteScalar(String sql, ParamList parameters, CommandType commandType)
+   在 SAMURAI.Data.Connection.ConnectionBuilder.ExecuteScalar()
+   在 SAMURAI.Data.Connection.StaticConnectionProvider.ExecuteScalar(String sql, ParamList parameters)
+   在 UserPermission.Bll.AccountBusiness.IsRoleUse(String roleid) 位置 E:\UserPermission\UserPermission.Bll\AccountBusiness.cs:行号 378
+   在 UserPermission.Web.Handler.AjaxHandler.IfRoleUse(HttpContext context) 位置 E:\UserPermission\UserPermission.Web\Handler\AjaxHandler.ashx.cs:行号 144
+   在 UserPermission.Web.Handler.AjaxHandler.ProcessRequest(HttpContext context) 位置 E:\UserPermission\UserPermission.Web\Handler\AjaxHandler.ashx.cs:行号 54
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)

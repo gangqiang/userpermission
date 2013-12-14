@@ -1,0 +1,126 @@
+2012-01-11 11:35:07:
+请求 内容:<?xml version="1.0" encoding="gbk"?><request><appkey>925C90E4-C258-4745-B198-1ACDDDB50778</appkey><action>AccountLogin</action><accountname>wanggq</accountname><accountpwd>F650C15B083CF124</accountpwd><companycode>117</companycode></request>,返回:<?xml version="1.0" encoding="gbk"?><response><result><accountid>2</accountid><truename>王刚强</truename><companyid>1</companyid><groupid></groupid><accountmenu><menuitem><menuid>4</menuid><name>基础信息</name>
+                                                 <linkurl></linkurl><parentid>0</parentid><sortnum>9</sortnum>
+                                                <desc>系统的基础信息录入管理</desc></menuitem><menuitem><menuid>21</menuid><name>系统中心</name>
+                                                 <linkurl></linkurl><parentid>0</parentid><sortnum>8</sortnum>
+                                                <desc>系统配置相关信息管理</desc></menuitem><menuitem><menuid>26</menuid><name>营运中心</name>
+                                                 <linkurl></linkurl><parentid>0</parentid><sortnum>7</sortnum>
+                                                <desc>营运中心</desc></menuitem><menuitem><menuid>27</menuid><name>监控中心</name>
+                                                 <linkurl></linkurl><parentid>0</parentid><sortnum>6</sortnum>
+                                                <desc>监控中心</desc></menuitem><menuitem><menuid>28</menuid><name>数据上报</name>
+                                                 <linkurl></linkurl><parentid>0</parentid><sortnum>5</sortnum>
+                                                <desc>数据上报</desc></menuitem><menuitem><menuid>29</menuid><name>用油分析</name>
+                                                 <linkurl></linkurl><parentid>0</parentid><sortnum>4</sortnum>
+                                                <desc>用油分析</desc></menuitem><menuitem><menuid>30</menuid><name>报表中心</name>
+                                                 <linkurl></linkurl><parentid>0</parentid><sortnum>3</sortnum>
+                                                <desc>报表中心</desc></menuitem><menuitem><menuid>34</menuid><name>账户管理</name>
+                                                 <linkurl></linkurl><parentid>21</parentid><sortnum>3</sortnum>
+                                                <desc>账户管理</desc></menuitem><menuitem><menuid>25</menuid><name>设备管理</name>
+                                                 <linkurl>Pages/BaseInfo/TankManage.aspx</linkurl><parentid>4</parentid><sortnum>3</sortnum>
+                                                <desc>设备管理</desc></menuitem><menuitem><menuid>33</menuid><name>角色管理</name>
+                                                 <linkurl></linkurl><parentid>21</parentid><sortnum>2</sortnum>
+                                                <desc>角色管理</desc></menuitem><menuitem><menuid>31</menuid><name>客服中心</name>
+                                                 <linkurl></linkurl><parentid>0</parentid><sortnum>2</sortnum>
+                                                <desc>客服中心</desc></menuitem><menuitem><menuid>24</menuid><name>部门管理</name>
+                                                 <linkurl>Pages/BaseInfo/DepartmentManage.aspx</linkurl><parentid>4</parentid><sortnum>2</sortnum>
+                                                <desc>部门管理</desc></menuitem><menuitem><menuid>23</menuid><name>参数设置</name>
+                                                 <linkurl>Pages/SysCenter/SysSet.aspx</linkurl><parentid>21</parentid><sortnum>1</sortnum>
+                                                <desc>参数设置</desc></menuitem><menuitem><menuid>32</menuid><name>速度分析</name>
+                                                 <linkurl>Pages/Run/SpeedStatChartByCar.aspx</linkurl><parentid>26</parentid><sortnum>1</sortnum>
+                                                <desc>速度分析</desc></menuitem><menuitem><menuid>36</menuid><name>车辆申请</name>
+                                                 <linkurl>Pages/DataUpLoad/TruckApplyManage.aspx</linkurl><parentid>28</parentid><sortnum>1</sortnum>
+                                                <desc>车辆申请</desc></menuitem><menuitem><menuid>35</menuid><name>气站监控</name>
+                                                 <linkurl></linkurl><parentid>27</parentid><sortnum>1</sortnum>
+                                                <desc>气站监控</desc></menuitem><menuitem><menuid>22</menuid><name>客户管理</name>
+                                                 <linkurl>Pages/BaseInfo/CustomManage.aspx</linkurl><parentid>4</parentid><sortnum>1</sortnum>
+                                                <desc>客户管理</desc></menuitem></accountmenu></result></response>
+
+2012-01-11 11:58:30:
+请求 内容:<?xml version="1.0" encoding="gbk"?><request><appkey>925C90E4-C258-4745-B198-1ACDDDB50778</appkey><action>AccountLogin</action><accountname>wanggq</accountname><accountpwd>F650C15B083CF124</accountpwd><companycode>117</companycode></request>,返回:<?xml version="1.0" encoding="gbk"?><response><result><accountid>2</accountid><truename>王刚强</truename><companyid>1</companyid><groupid></groupid><accountmenu><menuitem><menuid>4</menuid><name>基础信息</name>
+                                                 <linkurl></linkurl><parentid>0</parentid><sortnum>9</sortnum>
+                                                <desc>系统的基础信息录入管理</desc></menuitem><menuitem><menuid>21</menuid><name>系统中心</name>
+                                                 <linkurl></linkurl><parentid>0</parentid><sortnum>8</sortnum>
+                                                <desc>系统配置相关信息管理</desc></menuitem><menuitem><menuid>26</menuid><name>营运中心</name>
+                                                 <linkurl></linkurl><parentid>0</parentid><sortnum>7</sortnum>
+                                                <desc>营运中心</desc></menuitem><menuitem><menuid>27</menuid><name>监控中心</name>
+                                                 <linkurl></linkurl><parentid>0</parentid><sortnum>6</sortnum>
+                                                <desc>监控中心</desc></menuitem><menuitem><menuid>28</menuid><name>数据上报</name>
+                                                 <linkurl></linkurl><parentid>0</parentid><sortnum>5</sortnum>
+                                                <desc>数据上报</desc></menuitem><menuitem><menuid>29</menuid><name>用油分析</name>
+                                                 <linkurl></linkurl><parentid>0</parentid><sortnum>4</sortnum>
+                                                <desc>用油分析</desc></menuitem><menuitem><menuid>30</menuid><name>报表中心</name>
+                                                 <linkurl></linkurl><parentid>0</parentid><sortnum>3</sortnum>
+                                                <desc>报表中心</desc></menuitem><menuitem><menuid>34</menuid><name>账户管理</name>
+                                                 <linkurl></linkurl><parentid>21</parentid><sortnum>3</sortnum>
+                                                <desc>账户管理</desc></menuitem><menuitem><menuid>25</menuid><name>设备管理</name>
+                                                 <linkurl>Pages/BaseInfo/TankManage.aspx</linkurl><parentid>4</parentid><sortnum>3</sortnum>
+                                                <desc>设备管理</desc></menuitem><menuitem><menuid>33</menuid><name>角色管理</name>
+                                                 <linkurl></linkurl><parentid>21</parentid><sortnum>2</sortnum>
+                                                <desc>角色管理</desc></menuitem><menuitem><menuid>31</menuid><name>客服中心</name>
+                                                 <linkurl></linkurl><parentid>0</parentid><sortnum>2</sortnum>
+                                                <desc>客服中心</desc></menuitem><menuitem><menuid>24</menuid><name>部门管理</name>
+                                                 <linkurl>Pages/BaseInfo/DepartmentManage.aspx</linkurl><parentid>4</parentid><sortnum>2</sortnum>
+                                                <desc>部门管理</desc></menuitem><menuitem><menuid>23</menuid><name>参数设置</name>
+                                                 <linkurl>Pages/SysCenter/SysSet.aspx</linkurl><parentid>21</parentid><sortnum>1</sortnum>
+                                                <desc>参数设置</desc></menuitem><menuitem><menuid>32</menuid><name>速度分析</name>
+                                                 <linkurl>Pages/Run/SpeedStatChartByCar.aspx</linkurl><parentid>26</parentid><sortnum>1</sortnum>
+                                                <desc>速度分析</desc></menuitem><menuitem><menuid>36</menuid><name>车辆申请</name>
+                                                 <linkurl>Pages/DataUpLoad/TruckApplyManage.aspx</linkurl><parentid>28</parentid><sortnum>1</sortnum>
+                                                <desc>车辆申请</desc></menuitem><menuitem><menuid>35</menuid><name>气站监控</name>
+                                                 <linkurl></linkurl><parentid>27</parentid><sortnum>1</sortnum>
+                                                <desc>气站监控</desc></menuitem><menuitem><menuid>22</menuid><name>客户管理</name>
+                                                 <linkurl>Pages/BaseInfo/CustomManage.aspx</linkurl><parentid>4</parentid><sortnum>1</sortnum>
+                                                <desc>客户管理</desc></menuitem></accountmenu></result></response>
+
+2012-01-11 11:59:51:
+请求 内容:<?xml version="1.0" encoding="gbk"?><request><appkey>925C90E4-C258-4745-B198-1ACDDDB50778</appkey><action>AccountLogin</action><accountname>wanggq</accountname><accountpwd>F650C15B083CF124</accountpwd><companycode>117</companycode></request>,返回:<?xml version="1.0" encoding="gbk"?><response><result><accountid>2</accountid><truename>王刚强</truename><companyid>1</companyid><groupid></groupid><accountmenu><menuitem><menuid>4</menuid><name>基础信息</name>
+                                                 <linkurl></linkurl><parentid>0</parentid><sortnum>9</sortnum>
+                                                <desc>系统的基础信息录入管理</desc></menuitem><menuitem><menuid>21</menuid><name>系统中心</name>
+                                                 <linkurl></linkurl><parentid>0</parentid><sortnum>8</sortnum>
+                                                <desc>系统配置相关信息管理</desc></menuitem><menuitem><menuid>26</menuid><name>营运中心</name>
+                                                 <linkurl></linkurl><parentid>0</parentid><sortnum>7</sortnum>
+                                                <desc>营运中心</desc></menuitem><menuitem><menuid>27</menuid><name>监控中心</name>
+                                                 <linkurl></linkurl><parentid>0</parentid><sortnum>6</sortnum>
+                                                <desc>监控中心</desc></menuitem><menuitem><menuid>28</menuid><name>数据上报</name>
+                                                 <linkurl></linkurl><parentid>0</parentid><sortnum>5</sortnum>
+                                                <desc>数据上报</desc></menuitem><menuitem><menuid>29</menuid><name>用油分析</name>
+                                                 <linkurl></linkurl><parentid>0</parentid><sortnum>4</sortnum>
+                                                <desc>用油分析</desc></menuitem><menuitem><menuid>30</menuid><name>报表中心</name>
+                                                 <linkurl></linkurl><parentid>0</parentid><sortnum>3</sortnum>
+                                                <desc>报表中心</desc></menuitem><menuitem><menuid>34</menuid><name>账户管理</name>
+                                                 <linkurl></linkurl><parentid>21</parentid><sortnum>3</sortnum>
+                                                <desc>账户管理</desc></menuitem><menuitem><menuid>25</menuid><name>设备管理</name>
+                                                 <linkurl>Pages/BaseInfo/TankManage.aspx</linkurl><parentid>4</parentid><sortnum>3</sortnum>
+                                                <desc>设备管理</desc></menuitem><menuitem><menuid>33</menuid><name>角色管理</name>
+                                                 <linkurl></linkurl><parentid>21</parentid><sortnum>2</sortnum>
+                                                <desc>角色管理</desc></menuitem><menuitem><menuid>31</menuid><name>客服中心</name>
+                                                 <linkurl></linkurl><parentid>0</parentid><sortnum>2</sortnum>
+                                                <desc>客服中心</desc></menuitem><menuitem><menuid>24</menuid><name>部门管理</name>
+                                                 <linkurl>Pages/BaseInfo/DepartmentManage.aspx</linkurl><parentid>4</parentid><sortnum>2</sortnum>
+                                                <desc>部门管理</desc></menuitem><menuitem><menuid>23</menuid><name>参数设置</name>
+                                                 <linkurl>Pages/SysCenter/SysSet.aspx</linkurl><parentid>21</parentid><sortnum>1</sortnum>
+                                                <desc>参数设置</desc></menuitem><menuitem><menuid>32</menuid><name>速度分析</name>
+                                                 <linkurl>Pages/Run/SpeedStatChartByCar.aspx</linkurl><parentid>26</parentid><sortnum>1</sortnum>
+                                                <desc>速度分析</desc></menuitem><menuitem><menuid>36</menuid><name>车辆申请</name>
+                                                 <linkurl>Pages/DataUpLoad/TruckApplyManage.aspx</linkurl><parentid>28</parentid><sortnum>1</sortnum>
+                                                <desc>车辆申请</desc></menuitem><menuitem><menuid>35</menuid><name>气站监控</name>
+                                                 <linkurl></linkurl><parentid>27</parentid><sortnum>1</sortnum>
+                                                <desc>气站监控</desc></menuitem><menuitem><menuid>22</menuid><name>客户管理</name>
+                                                 <linkurl>Pages/BaseInfo/CustomManage.aspx</linkurl><parentid>4</parentid><sortnum>1</sortnum>
+                                                <desc>客户管理</desc></menuitem></accountmenu></result></response>
+
+2012-01-11 12:00:42:
+请求 内容:<?xml version="1.0" encoding="gbk"?><request><appkey>925C90E4-C258-4745-B198-1ACDDDB50778</appkey><action>AccountLogin</action><accountname>wanggq</accountname><accountpwd>F650C15B083CF124</accountpwd><companycode>110</companycode></request>,返回:<?xml version="1.0" encoding="gbk"?><response><error><code>202</code><desc><![CDATA[用户名和密码不匹配|用户名和密码不匹配]]></desc></error></response>
+
+2012-01-11 12:01:19:
+请求 内容:<?xml version="1.0" encoding="gbk"?><request><appkey>925C90E4-C258-4745-B198-1ACDDDB50778</appkey><action>AccountLogin</action><accountname>wanggq</accountname><accountpwd>F650C15B083CF124</accountpwd><companycode>110</companycode></request>,返回:<?xml version="1.0" encoding="gbk"?><response><error><code>202</code><desc><![CDATA[用户名和密码不匹配|用户名和密码不匹配]]></desc></error></response>
+
+2012-01-11 15:54:32:
+asdfasdf
+
+2012-01-11 16:00:12:
+asdfasdf
+
+2012-01-11 16:10:10:
+asdfasdf
+

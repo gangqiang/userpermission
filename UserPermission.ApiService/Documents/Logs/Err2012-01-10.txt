@@ -1,0 +1,77 @@
+2012-01-10 08:29:32:
+
+客户机IP:127.0.0.1
+错误地址:http://localhost:1216/favicon.ico
+异常信息:文件不存在。
+
+System.Web.HttpException: 文件不存在。
+   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2012-01-10 08:32:00:
+
+客户机IP:127.0.0.1
+错误地址:http://localhost:1216/default.aspx
+异常信息:请求已超时。
+
+System.Web.HttpException: 请求已超时。
+2012-01-10 08:32:00:
+
+客户机IP:127.0.0.1
+错误地址:http://localhost:1216/favicon.ico
+异常信息:文件不存在。
+
+System.Web.HttpException: 文件不存在。
+   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2012-01-10 08:37:20:
+
+客户机IP:127.0.0.1
+错误地址:http://localhost:1216/default.aspx
+异常信息:请求已超时。
+
+System.Web.HttpException: 请求已超时。
+2012-01-10 08:41:54:
+
+客户机IP:127.0.0.1
+错误地址:http://localhost:1216/favicon.ico
+异常信息:文件不存在。
+
+System.Web.HttpException: 文件不存在。
+   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2012-01-10 08:52:41:
+
+客户机IP:127.0.0.1
+错误地址:http://localhost:1216/favicon.ico
+异常信息:文件不存在。
+
+System.Web.HttpException: 文件不存在。
+   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2012-01-10 13:14:49:
+权限接口内部错误
+
+System.Data.OracleClient.OracleException: ORA-01008: 并非所有变量都已绑定
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteScalarInternal(Boolean needCLStype, Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteScalar()
+   在 SAMURAI.Data.Connection.OracleConnectionProvider.ExecuteScalar(String sql, ParamList parameters, CommandType commandType)
+   在 SAMURAI.Data.Connection.ConnectionBuilder.ExecuteScalar()
+   在 SAMURAI.Data.Connection.StaticConnectionProvider.ExecuteScalar(String sql)
+   在 UserPermission.Bll.CompanyBusiness.IsCompanyCodeExists(String strCompanyCode) 位置 E:\UserPermission\UserPermission.Bll\CompanyBusiness.cs:行号 391
+   在 UserPermission.ApiService.PermissioinService.AccountLogin(HttpContext context, XmlDocument xmlDoc, ServiceResponse sResponse) 位置 E:\UserPermission\UserPermission.ApiService\PermissioinService.ashx.cs:行号 177
+   在 UserPermission.ApiService.PermissioinService.ProcessRequest(HttpContext context) 位置 E:\UserPermission\UserPermission.ApiService\PermissioinService.ashx.cs:行号 110

@@ -1,0 +1,168 @@
+2012-01-05 18:04:43:
+
+客户机IP:127.0.0.1
+错误地址:http://localhost:7565/Resource/Scripts/My97DatePicker/skin/blue/img.gif
+异常信息:文件不存在。
+
+System.Web.HttpException: 文件不存在。
+   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2012-01-05 18:04:45:
+更新公司关联状态时发生错误:ORA-01036: 非法的变量名/编号
+,Id:1
+
+System.Data.OracleClient.OracleException: ORA-01036: 非法的变量名/编号
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleParameterBinding.Bind(OciStatementHandle statementHandle, NativeBuffer parameterBuffer, OracleConnection connection, Boolean& mustRelease, SafeHandle& handleToBind)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 SAMURAI.Data.Connection.OracleConnectionProvider.ExecuteNonQuery(String sql, ParamList parameters, CommandType commandType)
+   在 SAMURAI.Data.Connection.OracleConnectionProvider.ExecuteNonQuery(String sql, ParamList parameters)
+   在 UserPermission.Bll.CompanyBusiness.UpdateCompanyRelateStatus(String strCId, String strStatus, USER_SHARE_LOGMODEL log) 位置 E:\UserPermission\UserPermission.Bll\CompanyBusiness.cs:行号 169
+2012-01-05 18:04:46:
+
+客户机IP:127.0.0.1
+错误地址:http://localhost:7565/Resource/Scripts/My97DatePicker/skin/blue/img.gif
+异常信息:文件不存在。
+
+System.Web.HttpException: 文件不存在。
+   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2012-01-05 18:07:01:
+更新公司关联状态时发生错误:ORA-01036: 非法的变量名/编号
+,Id:21
+
+System.Data.OracleClient.OracleException: ORA-01036: 非法的变量名/编号
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleParameterBinding.Bind(OciStatementHandle statementHandle, NativeBuffer parameterBuffer, OracleConnection connection, Boolean& mustRelease, SafeHandle& handleToBind)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 SAMURAI.Data.Connection.OracleConnectionProvider.ExecuteNonQuery(String sql, ParamList parameters, CommandType commandType)
+   在 SAMURAI.Data.Connection.OracleConnectionProvider.ExecuteNonQuery(String sql, ParamList parameters)
+   在 UserPermission.Bll.CompanyBusiness.UpdateCompanyRelateStatus(String strCId, String strStatus, USER_SHARE_LOGMODEL log) 位置 E:\UserPermission\UserPermission.Bll\CompanyBusiness.cs:行号 169
+2012-01-05 18:16:44:
+
+客户机IP:127.0.0.1
+错误地址:http://localhost:7565/UC/PageBar.ascx
+异常信息:禁止路径“/UC/PageBar.ascx”。
+
+System.Web.HttpException: 禁止路径“/UC/PageBar.ascx”。
+   在 System.Web.HttpForbiddenHandler.ProcessRequest(HttpContext context)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2012-01-05 18:16:49:
+
+客户机IP:127.0.0.1
+错误地址:http://localhost:7565/UC/PageBar.ascx
+异常信息:禁止路径“/UC/PageBar.ascx”。
+
+System.Web.HttpException: 禁止路径“/UC/PageBar.ascx”。
+   在 System.Web.HttpForbiddenHandler.ProcessRequest(HttpContext context)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2012-01-05 19:30:13:
+
+客户机IP:127.0.0.1
+错误地址:http://localhost:7565/Resource/Scripts/jquery.treeview/images/treeview-default-line.gif
+异常信息:文件不存在。
+
+System.Web.HttpException: 文件不存在。
+   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2012-01-05 19:30:14:
+
+客户机IP:127.0.0.1
+错误地址:http://localhost:7565/Resource/Scripts/jquery.treeview/images/treeview-default.gif
+异常信息:文件不存在。
+
+System.Web.HttpException: 文件不存在。
+   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2012-01-05 19:34:25:
+
+客户机IP:127.0.0.1
+错误地址:http://localhost:7565/Resource/Scripts/jquery.treeview/images/treeview-famfamfam-line.gif
+异常信息:文件不存在。
+
+System.Web.HttpException: 文件不存在。
+   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2012-01-05 19:34:25:
+
+客户机IP:127.0.0.1
+错误地址:http://localhost:7565/Resource/Scripts/jquery.treeview/images/folder.gif
+异常信息:文件不存在。
+
+System.Web.HttpException: 文件不存在。
+   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2012-01-05 19:34:25:
+
+客户机IP:127.0.0.1
+错误地址:http://localhost:7565/Resource/Scripts/jquery.treeview/images/file.gif
+异常信息:文件不存在。
+
+System.Web.HttpException: 文件不存在。
+   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2012-01-05 19:34:25:
+
+客户机IP:127.0.0.1
+错误地址:http://localhost:7565/Resource/Scripts/jquery.treeview/images/folder-closed.gif
+异常信息:文件不存在。
+
+System.Web.HttpException: 文件不存在。
+   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2012-01-05 19:34:25:
+
+客户机IP:127.0.0.1
+错误地址:http://localhost:7565/Resource/Scripts/jquery.treeview/images/treeview-famfamfam.gif
+异常信息:文件不存在。
+
+System.Web.HttpException: 文件不存在。
+   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2012-01-05 19:34:27:
+
+客户机IP:127.0.0.1
+错误地址:http://localhost:7565/Resource/Scripts/jquery.treeview/images/folder.gif
+异常信息:文件不存在。
+
+System.Web.HttpException: 文件不存在。
+   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)

@@ -1,0 +1,736 @@
+2012-01-07 09:11:09:
+
+客户机IP:127.0.0.1
+错误地址:http://localhost:13770/favicon.ico
+异常信息:文件不存在。
+
+System.Web.HttpException: 文件不存在。
+   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2012-01-07 10:55:58:
+
+客户机IP:127.0.0.1
+错误地址:http://localhost:13770/Handler/AjaxHandler.ashx?action=LoadFunMenu&pid=1&did=0&s=0.7284342425500392
+异常信息:引发类型为“System.OutOfMemoryException”的异常。
+
+System.OutOfMemoryException: 引发类型为“System.OutOfMemoryException”的异常。
+   在 System.String.GetStringForStringBuilder(String value, Int32 startIndex, Int32 length, Int32 capacity)
+   在 System.Text.StringBuilder.GetNewString(String currentString, Int32 requiredLength)
+   在 System.Text.StringBuilder.Append(Char[] value, Int32 startIndex, Int32 charCount)
+   在 System.Text.StringBuilder.AppendFormat(IFormatProvider provider, String format, Object[] args)
+   在 System.Text.StringBuilder.AppendFormat(String format, Object arg0, Object arg1, Object arg2)
+   在 UserPermission.Web.Handler.AjaxHandler.LoadFunMenu(HttpContext context) 位置 E:\UserPermission\UserPermission.Web\Handler\AjaxHandler.ashx.cs:行号 185
+   在 UserPermission.Web.Handler.AjaxHandler.ProcessRequest(HttpContext context) 位置 E:\UserPermission\UserPermission.Web\Handler\AjaxHandler.ashx.cs:行号 42
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2012-01-07 10:55:58:
+
+客户机IP:127.0.0.1
+错误地址:http://localhost:13770/Handler/AjaxHandler.ashx?action=LoadFunMenu&pid=21&did=0&s=0.8913475072422133
+异常信息:引发类型为“System.OutOfMemoryException”的异常。
+
+System.OutOfMemoryException: 引发类型为“System.OutOfMemoryException”的异常。
+   在 System.String.GetStringForStringBuilder(String value, Int32 startIndex, Int32 length, Int32 capacity)
+   在 System.Text.StringBuilder.GetNewString(String currentString, Int32 requiredLength)
+   在 System.Text.StringBuilder.Append(String value)
+   在 System.Text.StringBuilder.AppendFormat(IFormatProvider provider, String format, Object[] args)
+   在 System.Text.StringBuilder.AppendFormat(String format, Object arg0, Object arg1, Object arg2)
+   在 UserPermission.Web.Handler.AjaxHandler.LoadFunMenu(HttpContext context) 位置 E:\UserPermission\UserPermission.Web\Handler\AjaxHandler.ashx.cs:行号 185
+   在 UserPermission.Web.Handler.AjaxHandler.ProcessRequest(HttpContext context) 位置 E:\UserPermission\UserPermission.Web\Handler\AjaxHandler.ashx.cs:行号 42
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2012-01-07 10:56:02:
+
+客户机IP:127.0.0.1
+错误地址:http://localhost:13770/Handler/AjaxHandler.ashx?action=LoadFunMenu&pid=21&did=0&s=0.3326707881697961
+异常信息:引发类型为“System.OutOfMemoryException”的异常。
+
+System.OutOfMemoryException: 引发类型为“System.OutOfMemoryException”的异常。
+   在 System.String.GetStringForStringBuilder(String value, Int32 startIndex, Int32 length, Int32 capacity)
+   在 System.Text.StringBuilder.GetNewString(String currentString, Int32 requiredLength)
+   在 System.Text.StringBuilder.Append(String value)
+   在 System.Text.StringBuilder.AppendFormat(IFormatProvider provider, String format, Object[] args)
+   在 System.Text.StringBuilder.AppendFormat(String format, Object arg0, Object arg1, Object arg2)
+   在 UserPermission.Web.Handler.AjaxHandler.LoadFunMenu(HttpContext context) 位置 E:\UserPermission\UserPermission.Web\Handler\AjaxHandler.ashx.cs:行号 185
+   在 UserPermission.Web.Handler.AjaxHandler.ProcessRequest(HttpContext context) 位置 E:\UserPermission\UserPermission.Web\Handler\AjaxHandler.ashx.cs:行号 42
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2012-01-07 10:57:12:
+
+客户机IP:127.0.0.1
+错误地址:http://localhost:13770/Handler/AjaxHandler.ashx?action=LoadFunMenu&pid=21&did=0&s=0.9802540325692196
+异常信息:引发类型为“System.OutOfMemoryException”的异常。
+
+System.OutOfMemoryException: 引发类型为“System.OutOfMemoryException”的异常。
+   在 System.String.GetStringForStringBuilder(String value, Int32 startIndex, Int32 length, Int32 capacity)
+   在 System.Text.StringBuilder.GetNewString(String currentString, Int32 requiredLength)
+   在 System.Text.StringBuilder.Append(Char[] value, Int32 startIndex, Int32 charCount)
+   在 System.Text.StringBuilder.AppendFormat(IFormatProvider provider, String format, Object[] args)
+   在 System.Text.StringBuilder.AppendFormat(String format, Object arg0, Object arg1, Object arg2)
+   在 UserPermission.Web.Handler.AjaxHandler.LoadFunMenu(HttpContext context) 位置 E:\UserPermission\UserPermission.Web\Handler\AjaxHandler.ashx.cs:行号 185
+   在 UserPermission.Web.Handler.AjaxHandler.ProcessRequest(HttpContext context) 位置 E:\UserPermission\UserPermission.Web\Handler\AjaxHandler.ashx.cs:行号 42
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2012-01-07 11:19:34:
+
+客户机IP:127.0.0.1
+错误地址:http://localhost:13770/favicon.ico
+异常信息:文件不存在。
+
+System.Web.HttpException: 文件不存在。
+   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2012-01-07 13:09:52:
+修改产品信息时发生错误，产品名称：权限初始
+
+System.Data.OracleClient.OracleException: ORA-01747: user.table.column, table.column 或列说明无效
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 SAMURAI.Data.Connection.OracleConnectionProvider.ExecuteNonQuery(String sql, ParamList parameters, CommandType commandType)
+   在 SAMURAI.Data.Connection.OracleConnectionProvider.ExecuteNonQuery(String sql, ParamList parameters)
+   在 UserPermission.Bll.ProductBusiness.EditProduct(USER_SHARE_PRODUCTMODEL model, List`1 lstFunModel, USER_SHARE_LOGMODEL log) 位置 E:\UserPermission\UserPermission.Bll\ProductBusiness.cs:行号 122
+2012-01-07 13:11:06:
+修改产品信息时发生错误，产品名称：权限初始
+
+System.Data.OracleClient.OracleException: ORA-01036: 非法的变量名/编号
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleParameterBinding.Bind(OciStatementHandle statementHandle, NativeBuffer parameterBuffer, OracleConnection connection, Boolean& mustRelease, SafeHandle& handleToBind)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 SAMURAI.Data.Connection.OracleConnectionProvider.ExecuteNonQuery(String sql, ParamList parameters, CommandType commandType)
+   在 SAMURAI.Data.Connection.OracleConnectionProvider.ExecuteNonQuery(String sql, ParamList parameters)
+   在 UserPermission.Bll.ProductBusiness.EditProduct(USER_SHARE_PRODUCTMODEL model, List`1 lstFunModel, USER_SHARE_LOGMODEL log) 位置 E:\UserPermission\UserPermission.Bll\ProductBusiness.cs:行号 159
+2012-01-07 13:16:39:
+修改公司关联信息时发生错误:公司名称-苏州天泽信息科技有限公司
+
+System.ArgumentException: 列“FMPPAGEURL”不属于表 Table。
+   在 System.Data.DataRow.GetDataColumn(String columnName)
+   在 System.Data.DataRow.get_Item(String columnName)
+   在 UserPermission.Bll.CompanyBusiness.UpdateCompanyRelate(USER_SHARE_COMPANYRELATEMODEL model, USER_SHARE_LOGMODEL log) 位置 E:\UserPermission\UserPermission.Bll\CompanyBusiness.cs:行号 175
+2012-01-07 14:03:57:
+修改公司关联信息时发生错误:公司名称-苏州天泽信息科技有限公司
+
+System.Data.OracleClient.OracleException: ORA-01400: 无法将 NULL 插入 ("USP"."USER_SHARE_COMPANYFUN"."CFPAGEURL")
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 SAMURAI.Data.Connection.OracleConnectionProvider.ExecuteNonQuery(String sql, ParamList parameters, CommandType commandType)
+   在 SAMURAI.Data.Connection.OracleConnectionProvider.ExecuteNonQuery(String sql, ParamList parameters)
+   在 UserPermission.Bll.CompanyBusiness.UpdateCompanyRelate(USER_SHARE_COMPANYRELATEMODEL model, USER_SHARE_LOGMODEL log) 位置 E:\UserPermission\UserPermission.Bll\CompanyBusiness.cs:行号 182
+2012-01-07 14:04:05:
+修改公司关联信息时发生错误:公司名称-苏州天泽信息科技有限公司
+
+System.Data.OracleClient.OracleException: ORA-01400: 无法将 NULL 插入 ("USP"."USER_SHARE_COMPANYFUN"."CFPAGEURL")
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 SAMURAI.Data.Connection.OracleConnectionProvider.ExecuteNonQuery(String sql, ParamList parameters, CommandType commandType)
+   在 SAMURAI.Data.Connection.OracleConnectionProvider.ExecuteNonQuery(String sql, ParamList parameters)
+   在 UserPermission.Bll.CompanyBusiness.UpdateCompanyRelate(USER_SHARE_COMPANYRELATEMODEL model, USER_SHARE_LOGMODEL log) 位置 E:\UserPermission\UserPermission.Bll\CompanyBusiness.cs:行号 182
+2012-01-07 14:05:20:
+修改公司关联信息时发生错误:公司名称-金时杰
+
+System.Data.OracleClient.OracleException: ORA-01400: 无法将 NULL 插入 ("USP"."USER_SHARE_COMPANYFUN"."CFPAGEURL")
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 SAMURAI.Data.Connection.OracleConnectionProvider.ExecuteNonQuery(String sql, ParamList parameters, CommandType commandType)
+   在 SAMURAI.Data.Connection.OracleConnectionProvider.ExecuteNonQuery(String sql, ParamList parameters)
+   在 UserPermission.Bll.CompanyBusiness.UpdateCompanyRelate(USER_SHARE_COMPANYRELATEMODEL model, USER_SHARE_LOGMODEL log) 位置 E:\UserPermission\UserPermission.Bll\CompanyBusiness.cs:行号 182
+2012-01-07 14:07:15:
+修改公司关联信息时发生错误:公司名称-苏州天泽信息科技有限公司
+
+System.Data.OracleClient.OracleException: ORA-01400: 无法将 NULL 插入 ("USP"."USER_SHARE_COMPANYFUN"."CFPAGEURL")
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 SAMURAI.Data.Connection.OracleConnectionProvider.ExecuteNonQuery(String sql, ParamList parameters, CommandType commandType)
+   在 SAMURAI.Data.Connection.OracleConnectionProvider.ExecuteNonQuery(String sql, ParamList parameters)
+   在 UserPermission.Bll.CompanyBusiness.UpdateCompanyRelate(USER_SHARE_COMPANYRELATEMODEL model, USER_SHARE_LOGMODEL log) 位置 E:\UserPermission\UserPermission.Bll\CompanyBusiness.cs:行号 182
+2012-01-07 14:09:22:
+修改公司关联信息时发生错误:公司名称-苏州天泽信息科技有限公司
+
+System.Data.OracleClient.OracleException: ORA-01400: 无法将 NULL 插入 ("USP"."USER_SHARE_COMPANYFUN"."CFPAGEURL")
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 SAMURAI.Data.Connection.OracleConnectionProvider.ExecuteNonQuery(String sql, ParamList parameters, CommandType commandType)
+   在 SAMURAI.Data.Connection.OracleConnectionProvider.ExecuteNonQuery(String sql, ParamList parameters)
+   在 UserPermission.Bll.CompanyBusiness.UpdateCompanyRelate(USER_SHARE_COMPANYRELATEMODEL model, USER_SHARE_LOGMODEL log) 位置 E:\UserPermission\UserPermission.Bll\CompanyBusiness.cs:行号 182
+2012-01-07 14:11:56:
+修改公司关联信息时发生错误:公司名称-苏州天泽信息科技有限公司
+
+System.Data.OracleClient.OracleException: ORA-01400: 无法将 NULL 插入 ("USP"."USER_SHARE_COMPANYFUN"."CFPAGEURL")
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 SAMURAI.Data.Connection.OracleConnectionProvider.ExecuteNonQuery(String sql, ParamList parameters, CommandType commandType)
+   在 SAMURAI.Data.Connection.OracleConnectionProvider.ExecuteNonQuery(String sql, ParamList parameters)
+   在 UserPermission.Bll.CompanyBusiness.UpdateCompanyRelate(USER_SHARE_COMPANYRELATEMODEL model, USER_SHARE_LOGMODEL log) 位置 E:\UserPermission\UserPermission.Bll\CompanyBusiness.cs:行号 182
+2012-01-07 14:14:52:
+修改公司关联信息时发生错误:公司名称-苏州天泽信息科技有限公司
+
+System.Data.OracleClient.OracleException: ORA-01400: 无法将 NULL 插入 ("USP"."USER_SHARE_COMPANYFUN"."CFPAGEURL")
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 SAMURAI.Data.Connection.OracleConnectionProvider.ExecuteNonQuery(String sql, ParamList parameters, CommandType commandType)
+   在 SAMURAI.Data.Connection.OracleConnectionProvider.ExecuteNonQuery(String sql, ParamList parameters)
+   在 UserPermission.Bll.CompanyBusiness.UpdateCompanyRelate(USER_SHARE_COMPANYRELATEMODEL model, USER_SHARE_LOGMODEL log) 位置 E:\UserPermission\UserPermission.Bll\CompanyBusiness.cs:行号 182
+2012-01-07 17:38:59:
+
+客户机IP:127.0.0.1
+错误地址:http://localhost:13770/Pages/Init/ProductManage.aspx/ProductAdd.aspx
+异常信息:文件“/Pages/Init/ProductManage.aspx/ProductAdd.aspx”不存在。
+
+System.Web.HttpException: 文件“/Pages/Init/ProductManage.aspx/ProductAdd.aspx”不存在。
+   在 System.Web.UI.Util.CheckVirtualFileExists(VirtualPath virtualPath)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   在 System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean noAssert)
+   在 System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp, Boolean noAssert)
+   在 System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   在 System.Web.UI.PageHandlerFactory.System.Web.IHttpHandlerFactory2.GetHandler(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   在 System.Web.HttpApplication.MapHttpHandler(HttpContext context, String requestType, VirtualPath path, String pathTranslated, Boolean useAppConfig)
+   在 System.Web.HttpApplication.MapHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2012-01-07 17:39:32:
+
+客户机IP:127.0.0.1
+错误地址:http://localhost:13770/Pages/Init/ProductManage.aspx/ProductAdd.aspx
+异常信息:文件“/Pages/Init/ProductManage.aspx/ProductAdd.aspx”不存在。
+
+System.Web.HttpException: 文件“/Pages/Init/ProductManage.aspx/ProductAdd.aspx”不存在。
+   在 System.Web.UI.Util.CheckVirtualFileExists(VirtualPath virtualPath)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   在 System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean noAssert)
+   在 System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp, Boolean noAssert)
+   在 System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   在 System.Web.UI.PageHandlerFactory.System.Web.IHttpHandlerFactory2.GetHandler(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   在 System.Web.HttpApplication.MapHttpHandler(HttpContext context, String requestType, VirtualPath path, String pathTranslated, Boolean useAppConfig)
+   在 System.Web.HttpApplication.MapHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2012-01-07 17:39:53:
+
+客户机IP:127.0.0.1
+错误地址:http://localhost:13770/Pages/Init/ProductManage.aspx/ProductAdd.aspx?id=1
+异常信息:文件“/Pages/Init/ProductManage.aspx/ProductAdd.aspx”不存在。
+
+System.Web.HttpException: 文件“/Pages/Init/ProductManage.aspx/ProductAdd.aspx”不存在。
+   在 System.Web.UI.Util.CheckVirtualFileExists(VirtualPath virtualPath)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   在 System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean noAssert)
+   在 System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp, Boolean noAssert)
+   在 System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   在 System.Web.UI.PageHandlerFactory.System.Web.IHttpHandlerFactory2.GetHandler(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   在 System.Web.HttpApplication.MapHttpHandler(HttpContext context, String requestType, VirtualPath path, String pathTranslated, Boolean useAppConfig)
+   在 System.Web.HttpApplication.MapHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2012-01-07 17:40:39:
+
+客户机IP:127.0.0.1
+错误地址:http://localhost:13770/Pages/Init/ProductManage.aspx/ProductManage.aspx
+异常信息:文件“/Pages/Init/ProductManage.aspx/ProductManage.aspx”不存在。
+
+System.Web.HttpException: 文件“/Pages/Init/ProductManage.aspx/ProductManage.aspx”不存在。
+   在 System.Web.UI.Util.CheckVirtualFileExists(VirtualPath virtualPath)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   在 System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean noAssert)
+   在 System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp, Boolean noAssert)
+   在 System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   在 System.Web.UI.PageHandlerFactory.System.Web.IHttpHandlerFactory2.GetHandler(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   在 System.Web.HttpApplication.MapHttpHandler(HttpContext context, String requestType, VirtualPath path, String pathTranslated, Boolean useAppConfig)
+   在 System.Web.HttpApplication.MapHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2012-01-07 17:40:47:
+
+客户机IP:127.0.0.1
+错误地址:http://localhost:13770/Pages/Init/ProductManage.aspx/ProductManage.aspx
+异常信息:文件“/Pages/Init/ProductManage.aspx/ProductManage.aspx”不存在。
+
+System.Web.HttpException: 文件“/Pages/Init/ProductManage.aspx/ProductManage.aspx”不存在。
+   在 System.Web.UI.Util.CheckVirtualFileExists(VirtualPath virtualPath)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   在 System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean noAssert)
+   在 System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp, Boolean noAssert)
+   在 System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   在 System.Web.UI.PageHandlerFactory.System.Web.IHttpHandlerFactory2.GetHandler(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   在 System.Web.HttpApplication.MapHttpHandler(HttpContext context, String requestType, VirtualPath path, String pathTranslated, Boolean useAppConfig)
+   在 System.Web.HttpApplication.MapHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2012-01-07 17:41:13:
+
+客户机IP:127.0.0.1
+错误地址:http://localhost:13770/Pages/Init/ProductManage.aspx/ProductManage.aspx
+异常信息:文件“/Pages/Init/ProductManage.aspx/ProductManage.aspx”不存在。
+
+System.Web.HttpException: 文件“/Pages/Init/ProductManage.aspx/ProductManage.aspx”不存在。
+   在 System.Web.UI.Util.CheckVirtualFileExists(VirtualPath virtualPath)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   在 System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean noAssert)
+   在 System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp, Boolean noAssert)
+   在 System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   在 System.Web.UI.PageHandlerFactory.System.Web.IHttpHandlerFactory2.GetHandler(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   在 System.Web.HttpApplication.MapHttpHandler(HttpContext context, String requestType, VirtualPath path, String pathTranslated, Boolean useAppConfig)
+   在 System.Web.HttpApplication.MapHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2012-01-07 17:41:55:
+
+客户机IP:127.0.0.1
+错误地址:http://localhost:13770/Pages/Init/ProductManage.aspx/ProductManage.aspx
+异常信息:文件“/Pages/Init/ProductManage.aspx/ProductManage.aspx”不存在。
+
+System.Web.HttpException: 文件“/Pages/Init/ProductManage.aspx/ProductManage.aspx”不存在。
+   在 System.Web.UI.Util.CheckVirtualFileExists(VirtualPath virtualPath)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   在 System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean noAssert)
+   在 System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp, Boolean noAssert)
+   在 System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   在 System.Web.UI.PageHandlerFactory.System.Web.IHttpHandlerFactory2.GetHandler(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   在 System.Web.HttpApplication.MapHttpHandler(HttpContext context, String requestType, VirtualPath path, String pathTranslated, Boolean useAppConfig)
+   在 System.Web.HttpApplication.MapHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2012-01-07 17:42:26:
+
+客户机IP:127.0.0.1
+错误地址:http://localhost:13770/Pages/Init/ProductManage.aspx/ProductManage.aspx
+异常信息:文件“/Pages/Init/ProductManage.aspx/ProductManage.aspx”不存在。
+
+System.Web.HttpException: 文件“/Pages/Init/ProductManage.aspx/ProductManage.aspx”不存在。
+   在 System.Web.UI.Util.CheckVirtualFileExists(VirtualPath virtualPath)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   在 System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean noAssert)
+   在 System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp, Boolean noAssert)
+   在 System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   在 System.Web.UI.PageHandlerFactory.System.Web.IHttpHandlerFactory2.GetHandler(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   在 System.Web.HttpApplication.MapHttpHandler(HttpContext context, String requestType, VirtualPath path, String pathTranslated, Boolean useAppConfig)
+   在 System.Web.HttpApplication.MapHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2012-01-07 17:43:36:
+
+客户机IP:127.0.0.1
+错误地址:http://localhost:13770/Pages/Init/ProductManage.aspx/ProductManage.aspx
+异常信息:文件“/Pages/Init/ProductManage.aspx/ProductManage.aspx”不存在。
+
+System.Web.HttpException: 文件“/Pages/Init/ProductManage.aspx/ProductManage.aspx”不存在。
+   在 System.Web.UI.Util.CheckVirtualFileExists(VirtualPath virtualPath)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   在 System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean noAssert)
+   在 System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp, Boolean noAssert)
+   在 System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   在 System.Web.UI.PageHandlerFactory.System.Web.IHttpHandlerFactory2.GetHandler(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   在 System.Web.HttpApplication.MapHttpHandler(HttpContext context, String requestType, VirtualPath path, String pathTranslated, Boolean useAppConfig)
+   在 System.Web.HttpApplication.MapHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2012-01-07 17:43:43:
+
+客户机IP:127.0.0.1
+错误地址:http://localhost:13770/Pages/Init/ProductManage.aspx/ProductAdd.aspx
+异常信息:文件“/Pages/Init/ProductManage.aspx/ProductAdd.aspx”不存在。
+
+System.Web.HttpException: 文件“/Pages/Init/ProductManage.aspx/ProductAdd.aspx”不存在。
+   在 System.Web.UI.Util.CheckVirtualFileExists(VirtualPath virtualPath)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   在 System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean noAssert)
+   在 System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp, Boolean noAssert)
+   在 System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   在 System.Web.UI.PageHandlerFactory.System.Web.IHttpHandlerFactory2.GetHandler(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   在 System.Web.HttpApplication.MapHttpHandler(HttpContext context, String requestType, VirtualPath path, String pathTranslated, Boolean useAppConfig)
+   在 System.Web.HttpApplication.MapHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2012-01-07 21:38:37:
+
+客户机IP:127.0.0.1
+错误地址:http://localhost:13770/favicon.ico
+异常信息:文件不存在。
+
+System.Web.HttpException: 文件不存在。
+   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2012-01-07 21:38:40:
+
+客户机IP:127.0.0.1
+错误地址:http://localhost:13770/
+异常信息:文件不存在。
+
+System.Web.HttpException: 文件不存在。
+   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2012-01-07 21:40:28:
+
+客户机IP:127.0.0.1
+错误地址:http://localhost:13770/Pages/Init/ProjectManage.aspx
+异常信息:引发类型为“System.Web.HttpUnhandledException”的异常。
+
+System.Web.HttpUnhandledException: 引发类型为“System.Web.HttpUnhandledException”的异常。 ---> System.Exception: System.Data.OracleClient 需要 Oracle 客户端软件 8.1.7 或更高版本。
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionPool.PoolCreateRequest(Object state)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Web.UI.Page.HandleError(Exception e)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.pages_init_projectmanage_aspx.ProcessRequest(HttpContext context)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2012-01-07 21:56:24:
+
+客户机IP:127.0.0.1
+错误地址:http://localhost:13770/Pages/Init/ProjectManage.aspx
+异常信息:引发类型为“System.Web.HttpUnhandledException”的异常。
+
+System.Web.HttpUnhandledException: 引发类型为“System.Web.HttpUnhandledException”的异常。 ---> System.Exception: System.Data.OracleClient 需要 Oracle 客户端软件 8.1.7 或更高版本。
+   在 System.Data.OracleClient.OCI.DetermineClientVersion()
+   在 System.Data.OracleClient.OracleInternalConnection.OpenOnLocalTransaction(String userName, String password, String serverName, Boolean integratedSecurity, Boolean unicode, Boolean omitOracleConnectionName)
+   在 System.Data.OracleClient.OracleInternalConnection..ctor(OracleConnectionString connectionOptions)
+   在 System.Data.OracleClient.OracleConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnection owningConnection, DbConnectionPool pool, DbConnectionOptions options)
+   在 System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 SAMURAI.Data.Connection.OracleConnectionProvider.OpenConnection()
+   在 SAMURAI.Data.Connection.OracleConnectionProvider.ExecuteScalar(String sql, ParamList parameters, CommandType commandType)
+   在 SAMURAI.Data.Connection.ConnectionBuilder.ExecuteScalar()
+   在 SAMURAI.Data.Connection.StaticConnectionProvider.ExecuteScalar(String sql)
+   在 UserPermission.Bll.ProjectBusiness.GetProjectList(Int32 nPageIndex, Int32 nPageSize, String strWhere, Int32& nCount) 位置 F:\UserPermission\UserPermission.Bll\ProjectBusiness.cs:行号 271
+   在 UserPermission.Web.Pages.ProjectManage.BindData(Int32 nPageIndex) 位置 F:\UserPermission\UserPermission.Web\Pages\Init\ProjectManage.aspx.cs:行号 47
+   在 UserPermission.Web.Pages.ProjectManage.btnSearch_Click(Object sender, EventArgs e) 位置 F:\UserPermission\UserPermission.Web\Pages\Init\ProjectManage.aspx.cs:行号 30
+   在 System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   在 System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Web.UI.Page.HandleError(Exception e)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.pages_init_projectmanage_aspx.ProcessRequest(HttpContext context)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2012-01-07 21:58:11:
+
+客户机IP:127.0.0.1
+错误地址:http://localhost:13770/Pages/Init/CompanyRelateManage.aspx
+异常信息:引发类型为“System.Web.HttpUnhandledException”的异常。
+
+System.Web.HttpUnhandledException: 引发类型为“System.Web.HttpUnhandledException”的异常。 ---> System.Exception: System.Data.OracleClient 需要 Oracle 客户端软件 8.1.7 或更高版本。
+   在 System.Data.OracleClient.OCI.DetermineClientVersion()
+   在 System.Data.OracleClient.OracleInternalConnection.OpenOnLocalTransaction(String userName, String password, String serverName, Boolean integratedSecurity, Boolean unicode, Boolean omitOracleConnectionName)
+   在 System.Data.OracleClient.OracleInternalConnection..ctor(OracleConnectionString connectionOptions)
+   在 System.Data.OracleClient.OracleConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnection owningConnection, DbConnectionPool pool, DbConnectionOptions options)
+   在 System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 SAMURAI.Data.Connection.OracleConnectionProvider.OpenConnection()
+   在 SAMURAI.Data.Connection.OracleConnectionProvider.ExecuteScalar(String sql, ParamList parameters, CommandType commandType)
+   在 SAMURAI.Data.Connection.ConnectionBuilder.ExecuteScalar()
+   在 SAMURAI.Data.Connection.StaticConnectionProvider.ExecuteScalar(String sql)
+   在 UserPermission.Bll.CompanyBusiness.GetCompanyRelateList(Int32 nPageIndex, Int32 nPageSize, String strWhere, Int32& nCount) 位置 F:\UserPermission\UserPermission.Bll\CompanyBusiness.cs:行号 285
+   在 UserPermission.Web.Pages.Init.CompanyRelateManage.BindData(Int32 nPageIndex) 位置 F:\UserPermission\UserPermission.Web\Pages\Init\CompanyRelateManage.aspx.cs:行号 39
+   在 UserPermission.Web.Pages.Init.CompanyRelateManage.Page_Load(Object sender, EventArgs e) 位置 F:\UserPermission\UserPermission.Web\Pages\Init\CompanyRelateManage.aspx.cs:行号 22
+   在 System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Web.UI.Page.HandleError(Exception e)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.pages_init_companyrelatemanage_aspx.ProcessRequest(HttpContext context)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2012-01-07 22:12:00:
+
+客户机IP:127.0.0.1
+错误地址:http://localhost:13770/Pages/Init/ProductManage.aspx
+异常信息:引发类型为“System.Web.HttpUnhandledException”的异常。
+
+System.Web.HttpUnhandledException: 引发类型为“System.Web.HttpUnhandledException”的异常。 ---> System.Exception: System.Data.OracleClient 需要 Oracle 客户端软件 8.1.7 或更高版本。
+   在 System.Data.OracleClient.OCI.DetermineClientVersion()
+   在 System.Data.OracleClient.OracleInternalConnection.OpenOnLocalTransaction(String userName, String password, String serverName, Boolean integratedSecurity, Boolean unicode, Boolean omitOracleConnectionName)
+   在 System.Data.OracleClient.OracleInternalConnection..ctor(OracleConnectionString connectionOptions)
+   在 System.Data.OracleClient.OracleConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnection owningConnection, DbConnectionPool pool, DbConnectionOptions options)
+   在 System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 SAMURAI.Data.Connection.OracleConnectionProvider.OpenConnection()
+   在 SAMURAI.Data.Connection.OracleConnectionProvider.ExecuteScalar(String sql, ParamList parameters, CommandType commandType)
+   在 SAMURAI.Data.Connection.ConnectionBuilder.ExecuteScalar()
+   在 SAMURAI.Data.Connection.StaticConnectionProvider.ExecuteScalar(String sql)
+   在 UserPermission.Bll.ProjectBusiness.GetProjectList(Int32 nPageIndex, Int32 nPageSize, String strWhere, Int32& nCount) 位置 F:\UserPermission\UserPermission.Bll\ProjectBusiness.cs:行号 271
+   在 UserPermission.Web.Pages.Init.ProductManage.Page_Load(Object sender, EventArgs e) 位置 F:\UserPermission\UserPermission.Web\Pages\Init\ProductManage.aspx.cs:行号 21
+   在 System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Web.UI.Page.HandleError(Exception e)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.pages_init_productmanage_aspx.ProcessRequest(HttpContext context)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2012-01-07 22:14:48:
+
+客户机IP:127.0.0.1
+错误地址:http://localhost:13770/Pages/Init/ProjectFunManage.aspx
+异常信息:引发类型为“System.Web.HttpUnhandledException”的异常。
+
+System.Web.HttpUnhandledException: 引发类型为“System.Web.HttpUnhandledException”的异常。 ---> System.Exception: System.Data.OracleClient 需要 Oracle 客户端软件 8.1.7 或更高版本。
+   在 System.Data.OracleClient.OCI.DetermineClientVersion()
+   在 System.Data.OracleClient.OracleInternalConnection.OpenOnLocalTransaction(String userName, String password, String serverName, Boolean integratedSecurity, Boolean unicode, Boolean omitOracleConnectionName)
+   在 System.Data.OracleClient.OracleInternalConnection..ctor(OracleConnectionString connectionOptions)
+   在 System.Data.OracleClient.OracleConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnection owningConnection, DbConnectionPool pool, DbConnectionOptions options)
+   在 System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 SAMURAI.Data.Connection.OracleConnectionProvider.OpenConnection()
+   在 SAMURAI.Data.Connection.OracleConnectionProvider.ExecuteScalar(String sql, ParamList parameters, CommandType commandType)
+   在 SAMURAI.Data.Connection.ConnectionBuilder.ExecuteScalar()
+   在 SAMURAI.Data.Connection.StaticConnectionProvider.ExecuteScalar(String sql)
+   在 UserPermission.Bll.ProjectBusiness.GetProjectList(Int32 nPageIndex, Int32 nPageSize, String strWhere, Int32& nCount) 位置 F:\UserPermission\UserPermission.Bll\ProjectBusiness.cs:行号 271
+   在 UserPermission.Web.Pages.Init.ProjectFunManage.Page_Load(Object sender, EventArgs e) 位置 F:\UserPermission\UserPermission.Web\Pages\Init\ProjectFunManage.aspx.cs:行号 20
+   在 System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Web.UI.Page.HandleError(Exception e)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.pages_init_projectfunmanage_aspx.ProcessRequest(HttpContext context)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2012-01-07 22:16:37:
+
+客户机IP:127.0.0.1
+错误地址:http://localhost:13770/Pages/Init/ProjectFunManage.aspx
+异常信息:引发类型为“System.Web.HttpUnhandledException”的异常。
+
+System.Web.HttpUnhandledException: 引发类型为“System.Web.HttpUnhandledException”的异常。 ---> System.Exception: System.Data.OracleClient 需要 Oracle 客户端软件 8.1.7 或更高版本。
+   在 System.Data.OracleClient.OCI.DetermineClientVersion()
+   在 System.Data.OracleClient.OracleInternalConnection.OpenOnLocalTransaction(String userName, String password, String serverName, Boolean integratedSecurity, Boolean unicode, Boolean omitOracleConnectionName)
+   在 System.Data.OracleClient.OracleInternalConnection..ctor(OracleConnectionString connectionOptions)
+   在 System.Data.OracleClient.OracleConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnection owningConnection, DbConnectionPool pool, DbConnectionOptions options)
+   在 System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 SAMURAI.Data.Connection.OracleConnectionProvider.OpenConnection()
+   在 SAMURAI.Data.Connection.OracleConnectionProvider.ExecuteScalar(String sql, ParamList parameters, CommandType commandType)
+   在 SAMURAI.Data.Connection.ConnectionBuilder.ExecuteScalar()
+   在 SAMURAI.Data.Connection.StaticConnectionProvider.ExecuteScalar(String sql)
+   在 UserPermission.Bll.ProjectBusiness.GetProjectList(Int32 nPageIndex, Int32 nPageSize, String strWhere, Int32& nCount) 位置 F:\UserPermission\UserPermission.Bll\ProjectBusiness.cs:行号 271
+   在 UserPermission.Web.Pages.Init.ProjectFunManage.Page_Load(Object sender, EventArgs e) 位置 F:\UserPermission\UserPermission.Web\Pages\Init\ProjectFunManage.aspx.cs:行号 20
+   在 System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Web.UI.Page.HandleError(Exception e)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.pages_init_projectfunmanage_aspx.ProcessRequest(HttpContext context)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2012-01-07 22:19:37:
+
+客户机IP:127.0.0.1
+错误地址:http://localhost:13770/Pages/Init/ProjectFunManage.aspx
+异常信息:引发类型为“System.Web.HttpUnhandledException”的异常。
+
+System.Web.HttpUnhandledException: 引发类型为“System.Web.HttpUnhandledException”的异常。 ---> System.Exception: System.Data.OracleClient 需要 Oracle 客户端软件 8.1.7 或更高版本。
+   在 System.Data.OracleClient.OCI.DetermineClientVersion()
+   在 System.Data.OracleClient.OracleInternalConnection.OpenOnLocalTransaction(String userName, String password, String serverName, Boolean integratedSecurity, Boolean unicode, Boolean omitOracleConnectionName)
+   在 System.Data.OracleClient.OracleInternalConnection..ctor(OracleConnectionString connectionOptions)
+   在 System.Data.OracleClient.OracleConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnection owningConnection, DbConnectionPool pool, DbConnectionOptions options)
+   在 System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 SAMURAI.Data.Connection.OracleConnectionProvider.OpenConnection()
+   在 SAMURAI.Data.Connection.OracleConnectionProvider.ExecuteScalar(String sql, ParamList parameters, CommandType commandType)
+   在 SAMURAI.Data.Connection.ConnectionBuilder.ExecuteScalar()
+   在 SAMURAI.Data.Connection.StaticConnectionProvider.ExecuteScalar(String sql)
+   在 UserPermission.Bll.ProjectBusiness.GetProjectList(Int32 nPageIndex, Int32 nPageSize, String strWhere, Int32& nCount) 位置 F:\UserPermission\UserPermission.Bll\ProjectBusiness.cs:行号 271
+   在 UserPermission.Web.Pages.Init.ProjectFunManage.Page_Load(Object sender, EventArgs e) 位置 F:\UserPermission\UserPermission.Web\Pages\Init\ProjectFunManage.aspx.cs:行号 20
+   在 System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Web.UI.Page.HandleError(Exception e)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.pages_init_projectfunmanage_aspx.ProcessRequest(HttpContext context)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2012-01-07 22:25:53:
+
+客户机IP:127.0.0.1
+错误地址:http://localhost:13770/Pages/Init/ProductAdd.aspx
+异常信息:引发类型为“System.Web.HttpUnhandledException”的异常。
+
+System.Web.HttpUnhandledException: 引发类型为“System.Web.HttpUnhandledException”的异常。 ---> System.Exception: System.Data.OracleClient 需要 Oracle 客户端软件 8.1.7 或更高版本。
+   在 System.Data.OracleClient.OCI.DetermineClientVersion()
+   在 System.Data.OracleClient.OracleInternalConnection.OpenOnLocalTransaction(String userName, String password, String serverName, Boolean integratedSecurity, Boolean unicode, Boolean omitOracleConnectionName)
+   在 System.Data.OracleClient.OracleInternalConnection..ctor(OracleConnectionString connectionOptions)
+   在 System.Data.OracleClient.OracleConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnection owningConnection, DbConnectionPool pool, DbConnectionOptions options)
+   在 System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 SAMURAI.Data.Connection.OracleConnectionProvider.OpenConnection()
+   在 SAMURAI.Data.Connection.OracleConnectionProvider.ExecuteScalar(String sql, ParamList parameters, CommandType commandType)
+   在 SAMURAI.Data.Connection.ConnectionBuilder.ExecuteScalar()
+   在 SAMURAI.Data.Connection.StaticConnectionProvider.ExecuteScalar(String sql)
+   在 UserPermission.Bll.ProjectBusiness.GetProjectList(Int32 nPageIndex, Int32 nPageSize, String strWhere, Int32& nCount) 位置 F:\UserPermission\UserPermission.Bll\ProjectBusiness.cs:行号 271
+   在 UserPermission.Web.Pages.Init.ProductAdd.Page_Load(Object sender, EventArgs e) 位置 F:\UserPermission\UserPermission.Web\Pages\Init\ProductAdd.aspx.cs:行号 35
+   在 System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Web.UI.Page.HandleError(Exception e)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.pages_init_productadd_aspx.ProcessRequest(HttpContext context)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2012-01-07 22:27:44:
+
+客户机IP:127.0.0.1
+错误地址:http://localhost:13770/Pages/Init/ProductAdd.aspx
+异常信息:引发类型为“System.Web.HttpUnhandledException”的异常。
+
+System.Web.HttpUnhandledException: 引发类型为“System.Web.HttpUnhandledException”的异常。 ---> System.Exception: System.Data.OracleClient 需要 Oracle 客户端软件 8.1.7 或更高版本。
+   在 System.Data.OracleClient.OCI.DetermineClientVersion()
+   在 System.Data.OracleClient.OracleInternalConnection.OpenOnLocalTransaction(String userName, String password, String serverName, Boolean integratedSecurity, Boolean unicode, Boolean omitOracleConnectionName)
+   在 System.Data.OracleClient.OracleInternalConnection..ctor(OracleConnectionString connectionOptions)
+   在 System.Data.OracleClient.OracleConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnection owningConnection, DbConnectionPool pool, DbConnectionOptions options)
+   在 System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 SAMURAI.Data.Connection.OracleConnectionProvider.OpenConnection()
+   在 SAMURAI.Data.Connection.OracleConnectionProvider.ExecuteScalar(String sql, ParamList parameters, CommandType commandType)
+   在 SAMURAI.Data.Connection.ConnectionBuilder.ExecuteScalar()
+   在 SAMURAI.Data.Connection.StaticConnectionProvider.ExecuteScalar(String sql)
+   在 UserPermission.Bll.ProjectBusiness.GetProjectList(Int32 nPageIndex, Int32 nPageSize, String strWhere, Int32& nCount) 位置 F:\UserPermission\UserPermission.Bll\ProjectBusiness.cs:行号 271
+   在 UserPermission.Web.Pages.Init.ProductAdd.Page_Load(Object sender, EventArgs e) 位置 F:\UserPermission\UserPermission.Web\Pages\Init\ProductAdd.aspx.cs:行号 35
+   在 System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Web.UI.Page.HandleError(Exception e)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.pages_init_productadd_aspx.ProcessRequest(HttpContext context)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)

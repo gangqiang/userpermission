@@ -1,0 +1,669 @@
+2012-01-17 10:30:50:
+
+客户机IP:127.0.0.1
+错误地址:http://localhost:14842/favicon.ico
+异常信息:文件不存在。
+
+System.Web.HttpException: 文件不存在。
+   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2012-01-17 10:30:50:
+
+客户机IP:127.0.0.1
+错误地址:http://localhost:14842/favicon.ico
+异常信息:文件不存在。
+
+System.Web.HttpException: 文件不存在。
+   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2012-01-17 10:31:33:
+
+客户机IP:127.0.0.1
+错误地址:http://localhost:14842/favicon.ico
+异常信息:文件不存在。
+
+System.Web.HttpException: 文件不存在。
+   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2012-01-17 11:15:50:
+修改公司关联信息时发生错误:公司名称-测试应用
+
+System.Data.OracleClient.OracleException: ORA-01008: 并非所有变量都已绑定
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 SAMURAI.Data.Connection.OracleConnectionProvider.ExecuteNonQuery(String sql, ParamList parameters, CommandType commandType)
+   在 SAMURAI.Data.Connection.OracleConnectionProvider.ExecuteNonQuery(String sql, ParamList parameters)
+   在 UserPermission.Bll.CompanyBusiness.UpdateCompanyRelate(USER_SHARE_COMPANYRELATEMODEL model, USER_SHARE_LOGMODEL log) 位置 E:\UserPermission\UserPermission.Bll\CompanyBusiness.cs:行号 176
+2012-01-17 11:15:55:
+修改公司关联信息时发生错误:公司名称-苏州天泽
+
+System.Data.OracleClient.OracleException: ORA-01008: 并非所有变量都已绑定
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 SAMURAI.Data.Connection.OracleConnectionProvider.ExecuteNonQuery(String sql, ParamList parameters, CommandType commandType)
+   在 SAMURAI.Data.Connection.OracleConnectionProvider.ExecuteNonQuery(String sql, ParamList parameters)
+   在 UserPermission.Bll.CompanyBusiness.UpdateCompanyRelate(USER_SHARE_COMPANYRELATEMODEL model, USER_SHARE_LOGMODEL log) 位置 E:\UserPermission\UserPermission.Bll\CompanyBusiness.cs:行号 176
+2012-01-17 14:48:00:
+
+客户机IP:127.0.0.1
+错误地址:http://localhost:14842/favicon.ico
+异常信息:文件不存在。
+
+System.Web.HttpException: 文件不存在。
+   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2012-01-17 15:28:07:
+
+客户机IP:127.0.0.1
+错误地址:http://localhost:14842/Pages/Service/FunMenuManage.aspx
+异常信息:e:\UserPermission\UserPermission.Web\Pages\Service\FunMenuManage.aspx(273): error CS0103: 当前上下文中不存在名称“hidProjectId”
+
+System.Web.HttpCompileException: e:\UserPermission\UserPermission.Web\Pages\Service\FunMenuManage.aspx(273): error CS0103: 当前上下文中不存在名称“hidProjectId”
+   在 System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   在 System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean noAssert)
+   在 System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp, Boolean noAssert)
+   在 System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   在 System.Web.UI.PageHandlerFactory.System.Web.IHttpHandlerFactory2.GetHandler(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   在 System.Web.HttpApplication.MapHttpHandler(HttpContext context, String requestType, VirtualPath path, String pathTranslated, Boolean useAppConfig)
+   在 System.Web.HttpApplication.MapHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2012-01-17 15:30:26:
+
+客户机IP:127.0.0.1
+错误地址:http://localhost:14842/Pages/Service/FunMenuManage.aspx
+异常信息:e:\UserPermission\UserPermission.Web\Pages\Service\FunMenuManage.aspx(273): error CS0103: 当前上下文中不存在名称“ddlProjectId”
+
+System.Web.HttpCompileException: e:\UserPermission\UserPermission.Web\Pages\Service\FunMenuManage.aspx(273): error CS0103: 当前上下文中不存在名称“ddlProjectId”
+   在 System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   在 System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean noAssert)
+   在 System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp, Boolean noAssert)
+   在 System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   在 System.Web.UI.PageHandlerFactory.System.Web.IHttpHandlerFactory2.GetHandler(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   在 System.Web.HttpApplication.MapHttpHandler(HttpContext context, String requestType, VirtualPath path, String pathTranslated, Boolean useAppConfig)
+   在 System.Web.HttpApplication.MapHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2012-01-17 15:30:57:
+
+客户机IP:127.0.0.1
+错误地址:http://localhost:14842/Pages/Service/FunMenuManage.aspx
+异常信息:e:\UserPermission\UserPermission.Web\Pages\Service\FunMenuManage.aspx(353): error CS0103: 当前上下文中不存在名称“hidProjectId”
+
+System.Web.HttpCompileException: e:\UserPermission\UserPermission.Web\Pages\Service\FunMenuManage.aspx(353): error CS0103: 当前上下文中不存在名称“hidProjectId”
+   在 System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   在 System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean noAssert)
+   在 System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp, Boolean noAssert)
+   在 System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   在 System.Web.UI.PageHandlerFactory.System.Web.IHttpHandlerFactory2.GetHandler(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   在 System.Web.HttpApplication.MapHttpHandler(HttpContext context, String requestType, VirtualPath path, String pathTranslated, Boolean useAppConfig)
+   在 System.Web.HttpApplication.MapHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2012-01-17 15:31:22:
+
+客户机IP:127.0.0.1
+错误地址:http://localhost:14842/Pages/Service/FunMenuManage.aspx
+异常信息:引发类型为“System.Web.HttpUnhandledException”的异常。
+
+System.Web.HttpUnhandledException: 引发类型为“System.Web.HttpUnhandledException”的异常。 ---> System.Data.OracleClient.OracleException: ORA-01722: 无效数字
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.OracleClient.OracleCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   在 SAMURAI.Data.Connection.OracleConnectionProvider.ExecuteDataSet(String sql, ParamList parameters, CommandType commandType)
+   在 SAMURAI.Data.Connection.OracleConnectionProvider.ExecuteDataTable(String sql, ParamList parameters, CommandType commandType)
+   在 SAMURAI.Data.Connection.ConnectionBuilder.ExecuteDataTable()
+   在 SAMURAI.Data.Connection.StaticConnectionProvider.ExecuteDataTable(String sql, ParamList parameters)
+   在 UserPermission.Bll.CompanyBusiness.GetCompanyProjects(String strCompanyCode) 位置 E:\UserPermission\UserPermission.Bll\CompanyBusiness.cs:行号 431
+   在 UserPermission.Web.Pages.Service.FunMenuManage.Page_Load(Object sender, EventArgs e) 位置 E:\UserPermission\UserPermission.Web\Pages\Service\FunMenuManage.aspx.cs:行号 20
+   在 System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Web.UI.Page.HandleError(Exception e)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.pages_service_funmenumanage_aspx.ProcessRequest(HttpContext context) 位置 c:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\Temporary ASP.NET Files\root\8e0ff3e7\ec337220\App_Web_d0fd-rds.0.cs:行号 0
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2012-01-17 15:33:44:
+
+客户机IP:127.0.0.1
+错误地址:http://localhost:14842/Pages/Service/FunMenuManage.aspx
+异常信息:引发类型为“System.Web.HttpUnhandledException”的异常。
+
+System.Web.HttpUnhandledException: 引发类型为“System.Web.HttpUnhandledException”的异常。 ---> System.Data.OracleClient.OracleException: ORA-01722: 无效数字
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.OracleClient.OracleCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   在 SAMURAI.Data.Connection.OracleConnectionProvider.ExecuteDataSet(String sql, ParamList parameters, CommandType commandType)
+   在 SAMURAI.Data.Connection.OracleConnectionProvider.ExecuteDataTable(String sql, ParamList parameters, CommandType commandType)
+   在 SAMURAI.Data.Connection.ConnectionBuilder.ExecuteDataTable()
+   在 SAMURAI.Data.Connection.StaticConnectionProvider.ExecuteDataTable(String sql, ParamList parameters)
+   在 UserPermission.Bll.CompanyBusiness.GetCompanyProjects(String strCompanyCode) 位置 E:\UserPermission\UserPermission.Bll\CompanyBusiness.cs:行号 431
+   在 UserPermission.Web.Pages.Service.FunMenuManage.Page_Load(Object sender, EventArgs e) 位置 E:\UserPermission\UserPermission.Web\Pages\Service\FunMenuManage.aspx.cs:行号 20
+   在 System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Web.UI.Page.HandleError(Exception e)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.pages_service_funmenumanage_aspx.ProcessRequest(HttpContext context) 位置 c:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\Temporary ASP.NET Files\root\8e0ff3e7\ec337220\App_Web_d0fd-rds.0.cs:行号 0
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2012-01-17 15:35:34:
+
+客户机IP:127.0.0.1
+错误地址:http://localhost:14842/Pages/Service/FunMenuManage.aspx
+异常信息:引发类型为“System.Web.HttpUnhandledException”的异常。
+
+System.Web.HttpUnhandledException: 引发类型为“System.Web.HttpUnhandledException”的异常。 ---> System.Data.OracleClient.OracleException: ORA-01722: 无效数字
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.OracleClient.OracleCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   在 SAMURAI.Data.Connection.OracleConnectionProvider.ExecuteDataSet(String sql, ParamList parameters, CommandType commandType)
+   在 SAMURAI.Data.Connection.OracleConnectionProvider.ExecuteDataTable(String sql, ParamList parameters, CommandType commandType)
+   在 SAMURAI.Data.Connection.ConnectionBuilder.ExecuteDataTable()
+   在 SAMURAI.Data.Connection.StaticConnectionProvider.ExecuteDataTable(String sql, ParamList parameters)
+   在 UserPermission.Bll.CompanyBusiness.GetCompanyProjects(String strCompanyCode) 位置 E:\UserPermission\UserPermission.Bll\CompanyBusiness.cs:行号 431
+   在 UserPermission.Web.Pages.Service.FunMenuManage.Page_Load(Object sender, EventArgs e) 位置 E:\UserPermission\UserPermission.Web\Pages\Service\FunMenuManage.aspx.cs:行号 20
+   在 System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Web.UI.Page.HandleError(Exception e)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.pages_service_funmenumanage_aspx.ProcessRequest(HttpContext context) 位置 c:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\Temporary ASP.NET Files\root\8e0ff3e7\ec337220\App_Web_d0fd-rds.0.cs:行号 0
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2012-01-17 15:39:38:
+
+客户机IP:127.0.0.1
+错误地址:http://localhost:14842/Pages/Service/FunMenuManage.aspx
+异常信息:引发类型为“System.Web.HttpUnhandledException”的异常。
+
+System.Web.HttpUnhandledException: 引发类型为“System.Web.HttpUnhandledException”的异常。 ---> System.Data.OracleClient.OracleException: ORA-01036: 非法的变量名/编号
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleParameterBinding.Bind(OciStatementHandle statementHandle, NativeBuffer parameterBuffer, OracleConnection connection, Boolean& mustRelease, SafeHandle& handleToBind)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.OracleClient.OracleCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   在 SAMURAI.Data.Connection.OracleConnectionProvider.ExecuteDataSet(String sql, ParamList parameters, CommandType commandType)
+   在 SAMURAI.Data.Connection.OracleConnectionProvider.ExecuteDataTable(String sql, ParamList parameters, CommandType commandType)
+   在 SAMURAI.Data.Connection.ConnectionBuilder.ExecuteDataTable()
+   在 SAMURAI.Data.Connection.StaticConnectionProvider.ExecuteDataTable(String sql, ParamList parameters)
+   在 UserPermission.Bll.CompanyBusiness.GetCompanyProjects(String strCompanyCode) 位置 E:\UserPermission\UserPermission.Bll\CompanyBusiness.cs:行号 431
+   在 UserPermission.Web.Pages.Service.FunMenuManage.Page_Load(Object sender, EventArgs e) 位置 E:\UserPermission\UserPermission.Web\Pages\Service\FunMenuManage.aspx.cs:行号 20
+   在 System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Web.UI.Page.HandleError(Exception e)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.pages_service_funmenumanage_aspx.ProcessRequest(HttpContext context) 位置 c:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\Temporary ASP.NET Files\root\8e0ff3e7\ec337220\App_Web_yb5cxvjk.3.cs:行号 0
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2012-01-17 15:39:56:
+
+客户机IP:127.0.0.1
+错误地址:http://localhost:14842/Pages/Service/FunMenuManage.aspx
+异常信息:引发类型为“System.Web.HttpUnhandledException”的异常。
+
+System.Web.HttpUnhandledException: 引发类型为“System.Web.HttpUnhandledException”的异常。 ---> System.Web.HttpException: DataBinding:“System.Data.DataRowView”不包含名为“PROJECITID”的属性。
+   在 System.Web.UI.DataBinder.GetPropertyValue(Object container, String propName)
+   在 System.Web.UI.DataBinder.GetPropertyValue(Object container, String propName, String format)
+   在 System.Web.UI.WebControls.ListControl.PerformDataBinding(IEnumerable dataSource)
+   在 System.Web.UI.WebControls.ListControl.OnDataBinding(EventArgs e)
+   在 System.Web.UI.WebControls.ListControl.PerformSelect()
+   在 System.Web.UI.WebControls.BaseDataBoundControl.DataBind()
+   在 UserPermission.Utils.ControlHelper.BindListControl(ListControl lc, Object datasource, String strText, String strValue) 位置 E:\UserPermission\UserPermission.Utils\ControlHelper.cs:行号 18
+   在 UserPermission.Web.Pages.Service.FunMenuManage.Page_Load(Object sender, EventArgs e) 位置 E:\UserPermission\UserPermission.Web\Pages\Service\FunMenuManage.aspx.cs:行号 21
+   在 System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Web.UI.Page.HandleError(Exception e)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.pages_service_funmenumanage_aspx.ProcessRequest(HttpContext context) 位置 c:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\Temporary ASP.NET Files\root\8e0ff3e7\ec337220\App_Web_9hy6bvu1.2.cs:行号 0
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2012-01-17 15:40:15:
+
+客户机IP:127.0.0.1
+错误地址:http://localhost:14842/Handler/AjaxHandler.ashx?action=LoadCFunMenu&projectid=????????&s=0.3371641225645892
+异常信息:ORA-00911: 无效字符
+
+
+System.Data.OracleClient.OracleException: ORA-00911: 无效字符
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.OracleClient.OracleCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   在 SAMURAI.Data.Connection.OracleConnectionProvider.ExecuteDataSet(String sql, ParamList parameters, CommandType commandType)
+   在 SAMURAI.Data.Connection.OracleConnectionProvider.ExecuteDataTable(String sql, ParamList parameters, CommandType commandType)
+   在 SAMURAI.Data.Connection.ConnectionBuilder.ExecuteDataTable()
+   在 SAMURAI.Data.Connection.StaticConnectionProvider.ExecuteDataTable(String sql)
+   在 UserPermission.Bll.CompanyFunBusiness.GetCompanyFunList(String strWhere) 位置 E:\UserPermission\UserPermission.Bll\CompanyFunBusiness.cs:行号 79
+   在 UserPermission.Web.Handler.AjaxHandler.LoadCFunMenu(HttpContext context) 位置 E:\UserPermission\UserPermission.Web\Handler\AjaxHandler.ashx.cs:行号 90
+   在 UserPermission.Web.Handler.AjaxHandler.ProcessRequest(HttpContext context) 位置 E:\UserPermission\UserPermission.Web\Handler\AjaxHandler.ashx.cs:行号 36
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2012-01-17 15:41:07:
+
+客户机IP:127.0.0.1
+错误地址:http://localhost:14842/favicon.ico
+异常信息:文件不存在。
+
+System.Web.HttpException: 文件不存在。
+   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2012-01-17 15:43:08:
+
+客户机IP:127.0.0.1
+错误地址:http://localhost:14842/favicon.ico
+异常信息:文件不存在。
+
+System.Web.HttpException: 文件不存在。
+   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2012-01-17 15:44:23:
+
+客户机IP:127.0.0.1
+错误地址:http://localhost:14842/favicon.ico
+异常信息:文件不存在。
+
+System.Web.HttpException: 文件不存在。
+   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2012-01-17 16:30:44:
+
+客户机IP:127.0.0.1
+错误地址:http://localhost:14842/Pages/Init/CompanyRelateManage.aspx
+异常信息:引发类型为“System.Web.HttpUnhandledException”的异常。
+
+System.Web.HttpUnhandledException: 引发类型为“System.Web.HttpUnhandledException”的异常。 ---> System.Web.HttpException: DataBinding:“System.Data.DataRowView”不包含名为“ACCOUNTNAME”的属性。
+   在 System.Web.UI.DataBinder.GetPropertyValue(Object container, String propName)
+   在 System.Web.UI.DataBinder.Eval(Object container, String[] expressionParts)
+   在 System.Web.UI.DataBinder.Eval(Object container, String expression)
+   在 System.Web.UI.DataBinder.Eval(Object container, String expression, String format)
+   在 ASP.pages_init_companyrelatemanage_aspx.__DataBind__control3(Object sender, EventArgs e) 位置 e:\UserPermission\UserPermission.Web\Pages\Init\CompanyRelateManage.aspx:行号 69
+   在 System.Web.UI.Control.OnDataBinding(EventArgs e)
+   在 System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   在 System.Web.UI.Control.DataBind()
+   在 System.Web.UI.Control.DataBindChildren()
+   在 System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   在 System.Web.UI.Control.DataBind()
+   在 System.Web.UI.WebControls.Repeater.CreateItem(Int32 itemIndex, ListItemType itemType, Boolean dataBind, Object dataItem)
+   在 System.Web.UI.WebControls.Repeater.CreateControlHierarchy(Boolean useDataSource)
+   在 System.Web.UI.WebControls.Repeater.OnDataBinding(EventArgs e)
+   在 System.Web.UI.WebControls.Repeater.DataBind()
+   在 UserPermission.Web.Pages.Init.CompanyRelateManage.BindData(Int32 nPageIndex) 位置 E:\UserPermission\UserPermission.Web\Pages\Init\CompanyRelateManage.aspx.cs:行号 41
+   在 UserPermission.Web.Pages.Init.CompanyRelateManage.Page_Load(Object sender, EventArgs e) 位置 E:\UserPermission\UserPermission.Web\Pages\Init\CompanyRelateManage.aspx.cs:行号 22
+   在 System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Web.UI.Page.HandleError(Exception e)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.pages_init_companyrelatemanage_aspx.ProcessRequest(HttpContext context) 位置 c:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\Temporary ASP.NET Files\root\8e0ff3e7\ec337220\App_Web_o7rz0omm.7.cs:行号 0
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2012-01-17 16:30:59:
+
+客户机IP:127.0.0.1
+错误地址:http://localhost:14842/Pages/Init/CompanyRelateManage.aspx
+异常信息:引发类型为“System.Web.HttpUnhandledException”的异常。
+
+System.Web.HttpUnhandledException: 引发类型为“System.Web.HttpUnhandledException”的异常。 ---> System.Data.OracleClient.OracleException: ORA-00918: 未明确定义列
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.OracleClient.OracleCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   在 SAMURAI.Data.Connection.OracleConnectionProvider.ExecuteDataSet(String sql, ParamList parameters, CommandType commandType)
+   在 SAMURAI.Data.Connection.OracleConnectionProvider.ExecuteDataTable(String sql, ParamList parameters, CommandType commandType)
+   在 SAMURAI.Data.Connection.ConnectionBuilder.ExecuteDataTable()
+   在 SAMURAI.Data.Connection.StaticConnectionProvider.ExecuteDataTable(String sql)
+   在 UserPermission.Bll.CompanyBusiness.GetCompanyRelateList(Int32 nPageIndex, Int32 nPageSize, String strWhere, Int32& nCount) 位置 E:\UserPermission\UserPermission.Bll\CompanyBusiness.cs:行号 308
+   在 UserPermission.Web.Pages.Init.CompanyRelateManage.BindData(Int32 nPageIndex) 位置 E:\UserPermission\UserPermission.Web\Pages\Init\CompanyRelateManage.aspx.cs:行号 39
+   在 UserPermission.Web.Pages.Init.CompanyRelateManage.Page_Load(Object sender, EventArgs e) 位置 E:\UserPermission\UserPermission.Web\Pages\Init\CompanyRelateManage.aspx.cs:行号 22
+   在 System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Web.UI.Page.HandleError(Exception e)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.pages_init_companyrelatemanage_aspx.ProcessRequest(HttpContext context) 位置 c:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\Temporary ASP.NET Files\root\8e0ff3e7\ec337220\App_Web_nnolmet6.4.cs:行号 0
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2012-01-17 16:43:52:
+
+客户机IP:127.0.0.1
+错误地址:http://localhost:14842/Handler/AjaxHandler.ashx?action=LoadCFunMenu&projectid=undefined&s=0.7215699538026047
+异常信息:ORA-00904: "UNDEFINED": 标识符无效
+
+
+System.Data.OracleClient.OracleException: ORA-00904: "UNDEFINED": 标识符无效
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.OracleClient.OracleCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   在 SAMURAI.Data.Connection.OracleConnectionProvider.ExecuteDataSet(String sql, ParamList parameters, CommandType commandType)
+   在 SAMURAI.Data.Connection.OracleConnectionProvider.ExecuteDataTable(String sql, ParamList parameters, CommandType commandType)
+   在 SAMURAI.Data.Connection.ConnectionBuilder.ExecuteDataTable()
+   在 SAMURAI.Data.Connection.StaticConnectionProvider.ExecuteDataTable(String sql)
+   在 UserPermission.Bll.CompanyFunBusiness.GetCompanyFunList(String strWhere) 位置 E:\UserPermission\UserPermission.Bll\CompanyFunBusiness.cs:行号 79
+   在 UserPermission.Web.Handler.AjaxHandler.LoadCFunMenu(HttpContext context) 位置 E:\UserPermission\UserPermission.Web\Handler\AjaxHandler.ashx.cs:行号 90
+   在 UserPermission.Web.Handler.AjaxHandler.ProcessRequest(HttpContext context) 位置 E:\UserPermission\UserPermission.Web\Handler\AjaxHandler.ashx.cs:行号 36
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2012-01-17 16:45:06:
+
+客户机IP:127.0.0.1
+错误地址:http://localhost:14842/Handler/AjaxHandler.ashx?action=LoadCFunMenu&projectid=undefined&s=0.77731146489771
+异常信息:ORA-00904: "UNDEFINED": 标识符无效
+
+
+System.Data.OracleClient.OracleException: ORA-00904: "UNDEFINED": 标识符无效
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.OracleClient.OracleCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   在 SAMURAI.Data.Connection.OracleConnectionProvider.ExecuteDataSet(String sql, ParamList parameters, CommandType commandType)
+   在 SAMURAI.Data.Connection.OracleConnectionProvider.ExecuteDataTable(String sql, ParamList parameters, CommandType commandType)
+   在 SAMURAI.Data.Connection.ConnectionBuilder.ExecuteDataTable()
+   在 SAMURAI.Data.Connection.StaticConnectionProvider.ExecuteDataTable(String sql)
+   在 UserPermission.Bll.CompanyFunBusiness.GetCompanyFunList(String strWhere) 位置 E:\UserPermission\UserPermission.Bll\CompanyFunBusiness.cs:行号 79
+   在 UserPermission.Web.Handler.AjaxHandler.LoadCFunMenu(HttpContext context) 位置 E:\UserPermission\UserPermission.Web\Handler\AjaxHandler.ashx.cs:行号 90
+   在 UserPermission.Web.Handler.AjaxHandler.ProcessRequest(HttpContext context) 位置 E:\UserPermission\UserPermission.Web\Handler\AjaxHandler.ashx.cs:行号 36
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2012-01-17 16:46:26:
+
+客户机IP:127.0.0.1
+错误地址:http://localhost:14842/Handler/AjaxHandler.ashx?action=LoadCFunMenu&projectid=undefined&s=0.40396490700394855
+异常信息:ORA-00904: "UNDEFINED": 标识符无效
+
+
+System.Data.OracleClient.OracleException: ORA-00904: "UNDEFINED": 标识符无效
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.OracleClient.OracleCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   在 SAMURAI.Data.Connection.OracleConnectionProvider.ExecuteDataSet(String sql, ParamList parameters, CommandType commandType)
+   在 SAMURAI.Data.Connection.OracleConnectionProvider.ExecuteDataTable(String sql, ParamList parameters, CommandType commandType)
+   在 SAMURAI.Data.Connection.ConnectionBuilder.ExecuteDataTable()
+   在 SAMURAI.Data.Connection.StaticConnectionProvider.ExecuteDataTable(String sql)
+   在 UserPermission.Bll.CompanyFunBusiness.GetCompanyFunList(String strWhere) 位置 E:\UserPermission\UserPermission.Bll\CompanyFunBusiness.cs:行号 79
+   在 UserPermission.Web.Handler.AjaxHandler.LoadCFunMenu(HttpContext context) 位置 E:\UserPermission\UserPermission.Web\Handler\AjaxHandler.ashx.cs:行号 90
+   在 UserPermission.Web.Handler.AjaxHandler.ProcessRequest(HttpContext context) 位置 E:\UserPermission\UserPermission.Web\Handler\AjaxHandler.ashx.cs:行号 36
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2012-01-17 17:12:07:
+
+客户机IP:127.0.0.1
+错误地址:http://localhost:14842/Pages/Service/FunMenuEdit.aspx?type=edit&fmid=4&projectid=21
+异常信息:引发类型为“System.Web.HttpUnhandledException”的异常。
+
+System.Web.HttpUnhandledException: 引发类型为“System.Web.HttpUnhandledException”的异常。 ---> System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 UserPermission.Web.Pages.Service.FunMenuEdit.LoadInfo(Int32 nFmId) 位置 E:\UserPermission\UserPermission.Web\Pages\Service\FunMenuEdit.aspx.cs:行号 46
+   在 UserPermission.Web.Pages.Service.FunMenuEdit.Page_Load(Object sender, EventArgs e) 位置 E:\UserPermission\UserPermission.Web\Pages\Service\FunMenuEdit.aspx.cs:行号 33
+   在 System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Web.UI.Page.HandleError(Exception e)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.pages_service_funmenuedit_aspx.ProcessRequest(HttpContext context) 位置 c:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\Temporary ASP.NET Files\root\8e0ff3e7\ec337220\App_Web_6jb3sjjr.1.cs:行号 0
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2012-01-17 18:35:22:
+
+客户机IP:127.0.0.1
+错误地址:http://localhost:14842/Pages/Service/RoleManage.aspx
+异常信息:引发类型为“System.Web.HttpUnhandledException”的异常。
+
+System.Web.HttpUnhandledException: 引发类型为“System.Web.HttpUnhandledException”的异常。 ---> System.Data.OracleClient.OracleException: ORA-00933: SQL 命令未正确结束
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteScalarInternal(Boolean needCLStype, Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteScalar()
+   在 SAMURAI.Data.Connection.OracleConnectionProvider.ExecuteScalar(String sql, ParamList parameters, CommandType commandType)
+   在 SAMURAI.Data.Connection.ConnectionBuilder.ExecuteScalar()
+   在 SAMURAI.Data.Connection.StaticConnectionProvider.ExecuteScalar(String sql)
+   在 UserPermission.Bll.RoleBusiness.GetRoleList(Int32 nPageIndex, Int32 nPageSize, String strWhere, Int32& nCount) 位置 E:\UserPermission\UserPermission.Bll\RoleBusiness.cs:行号 29
+   在 UserPermission.Web.Pages.Service.RoleManage.BindData(Int32 nPageIndex) 位置 E:\UserPermission\UserPermission.Web\Pages\Service\RoleManage.aspx.cs:行号 51
+   在 UserPermission.Web.Pages.Service.RoleManage.Page_Load(Object sender, EventArgs e) 位置 E:\UserPermission\UserPermission.Web\Pages\Service\RoleManage.aspx.cs:行号 27
+   在 System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Web.UI.Page.HandleError(Exception e)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.pages_service_rolemanage_aspx.ProcessRequest(HttpContext context) 位置 c:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\Temporary ASP.NET Files\root\8e0ff3e7\ec337220\App_Web_mswyzpja.5.cs:行号 0
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2012-01-17 18:36:55:
+
+客户机IP:127.0.0.1
+错误地址:http://localhost:14842/Pages/Service/RoleManage.aspx
+异常信息:引发类型为“System.Web.HttpUnhandledException”的异常。
+
+System.Web.HttpUnhandledException: 引发类型为“System.Web.HttpUnhandledException”的异常。 ---> System.Data.OracleClient.OracleException: ORA-00933: SQL 命令未正确结束
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteScalarInternal(Boolean needCLStype, Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteScalar()
+   在 SAMURAI.Data.Connection.OracleConnectionProvider.ExecuteScalar(String sql, ParamList parameters, CommandType commandType)
+   在 SAMURAI.Data.Connection.ConnectionBuilder.ExecuteScalar()
+   在 SAMURAI.Data.Connection.StaticConnectionProvider.ExecuteScalar(String sql)
+   在 UserPermission.Bll.RoleBusiness.GetRoleList(Int32 nPageIndex, Int32 nPageSize, String strWhere, Int32& nCount) 位置 E:\UserPermission\UserPermission.Bll\RoleBusiness.cs:行号 29
+   在 UserPermission.Web.Pages.Service.RoleManage.BindData(Int32 nPageIndex) 位置 E:\UserPermission\UserPermission.Web\Pages\Service\RoleManage.aspx.cs:行号 51
+   在 UserPermission.Web.Pages.Service.RoleManage.Page_Load(Object sender, EventArgs e) 位置 E:\UserPermission\UserPermission.Web\Pages\Service\RoleManage.aspx.cs:行号 27
+   在 System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Web.UI.Page.HandleError(Exception e)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.pages_service_rolemanage_aspx.ProcessRequest(HttpContext context) 位置 c:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\Temporary ASP.NET Files\root\8e0ff3e7\ec337220\App_Web_mswyzpja.5.cs:行号 0
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2012-01-17 18:51:52:
+
+客户机IP:127.0.0.1
+错误地址:http://localhost:14842/Login.aspx
+异常信息:引发类型为“System.Web.HttpUnhandledException”的异常。
+
+System.Web.HttpUnhandledException: 引发类型为“System.Web.HttpUnhandledException”的异常。 ---> System.ArgumentException: 指定键的大小对于此算法无效。
+   在 System.Security.Cryptography.DES.set_Key(Byte[] value)
+   在 Enc.Encrypt(String pToEncrypt, String sKey) 位置 E:\UserPermission\UserPermission.Bll\Enc.cs:行号 34
+   在 UserPermission.Web.Login.Page_Load(Object sender, EventArgs e) 位置 E:\UserPermission\UserPermission.Web\Login.aspx.cs:行号 26
+   在 System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Web.UI.Page.HandleError(Exception e)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.login_aspx.ProcessRequest(HttpContext context) 位置 c:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\Temporary ASP.NET Files\root\8e0ff3e7\ec337220\App_Web_tny8flmw.1.cs:行号 0
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2012-01-17 18:57:21:
+
+客户机IP:127.0.0.1
+错误地址:http://localhost:14842/Login.aspx?action=autologin&code=120&param=5AC75F57BE6CCC55E4919887063A4286D0AA44805CD129DEB4EF0793FD6BED8938891C721A987107B23FAB0235F3E301C1A5789C73F539CB12272EA12CC1F79E
+异常信息:引发类型为“System.Web.HttpUnhandledException”的异常。
+
+System.Web.HttpUnhandledException: 引发类型为“System.Web.HttpUnhandledException”的异常。 ---> System.ArgumentException: 指定键的大小对于此算法无效。
+   在 System.Security.Cryptography.DES.set_Key(Byte[] value)
+   在 Enc.Decrypt(String pToDecrypt, String sKey) 位置 E:\UserPermission\UserPermission.Bll\Enc.cs:行号 67
+   在 UserPermission.Web.Login.AutoLogin() 位置 E:\UserPermission\UserPermission.Web\Login.aspx.cs:行号 44
+   在 UserPermission.Web.Login.Page_Load(Object sender, EventArgs e) 位置 E:\UserPermission\UserPermission.Web\Login.aspx.cs:行号 31
+   在 System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Web.UI.Page.HandleError(Exception e)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.login_aspx.ProcessRequest(HttpContext context) 位置 c:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\Temporary ASP.NET Files\root\8e0ff3e7\ec337220\App_Web_kpw9zail.0.cs:行号 0
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)

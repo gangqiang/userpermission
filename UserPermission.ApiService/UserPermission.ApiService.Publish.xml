@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<publishData>
+  <publishProfile publishUrl="C:\Documents and Settings\wanggq\桌面\SpService" deleteExistingFiles="True" ftpAnonymousLogin="False" ftpPassiveMode="True" msdeploySite="" msdeploySiteID="" msdeployRemoteSitePhysicalPath="" msdeployAllowUntrustedCertificate="False" msdeploySkipExtraFilesOnServer="True" msdeployMarkAsApp="False" profileName="配置文件1" publishMethod="FileSystem" replaceMatchingFiles="False" userName="" savePWD="False" userPWD="" SelectedForPublish="True">
+    <file relUrl="Web.config" publishTime="03/31/2012 09:47:39" />
+    <file relUrl="Documents/Logs/Err2012-01-09.txt" publishTime="01/09/2012 17:20:10" />
+    <file relUrl="bin/UserPermission.Model.pdb" publishTime="03/31/2012 09:47:36" />
+    <file relUrl="bin/UserPermission.Bll.pdb" publishTime="03/31/2012 09:47:37" />
+    <file relUrl="bin/UserPermission.ApiService.dll" publishTime="03/31/2012 09:47:37" />
+    <file relUrl="bin/UserPermission.Model.dll" publishTime="03/31/2012 09:47:36" />
+    <file relUrl="bin/SAMURAI.Data.dll" publishTime="12/31/2011 15:36:42" />
+    <file relUrl="bin/Common.Logging.dll" publishTime="12/31/2011 10:16:42" />
+    <file relUrl="PermissioinService.ashx" publishTime="01/07/2012 15:26:08" />
+    <file relUrl="bin/UserPermission.Utils.pdb" publishTime="03/30/2012 17:13:11" />
+    <file relUrl="bin/Common.Logging.Log4Net.dll" publishTime="12/31/2011 10:16:42" />
+    <file relUrl="Documents/Logs/Info2012-01-09.txt" publishTime="01/09/2012 17:20:09" />
+    <file relUrl="Global.asax" publishTime="01/07/2012 15:57:12" />
+    <file relUrl="favicon.ico" publishTime="01/10/2012 08:55:31" />
+    <file relUrl="bin/UserPermission.ApiService.pdb" publishTime="03/31/2012 09:47:37" />
+    <file relUrl="bin/UserPermission.Utils.dll" publishTime="03/30/2012 17:13:11" />
+    <file relUrl="bin/log4net.dll" publishTime="12/31/2011 10:16:42" />
+    <file relUrl="Default.aspx" publishTime="01/11/2012 11:22:16" />
+    <file relUrl="bin/UserPermission.Bll.dll" publishTime="03/31/2012 09:47:37" />
+  </publishProfile>
+</publishData>

@@ -1,0 +1,32 @@
+2012-01-11 11:25:27:
+权限接口内部错误
+
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 UserPermission.ApiService.PermissioinService.AccountLogin(HttpContext context, XmlDocument xmlDoc, ServiceResponse sResponse) 位置 E:\UserPermission\UserPermission.ApiService\PermissioinService.ashx.cs:行号 215
+   在 UserPermission.ApiService.PermissioinService.ProcessRequest(HttpContext context) 位置 E:\UserPermission\UserPermission.ApiService\PermissioinService.ashx.cs:行号 110
+2012-01-11 11:29:31:
+权限接口内部错误
+
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 UserPermission.ApiService.PermissioinService.AccountLogin(HttpContext context, XmlDocument xmlDoc, ServiceResponse sResponse) 位置 E:\UserPermission\UserPermission.ApiService\PermissioinService.ashx.cs:行号 215
+   在 UserPermission.ApiService.PermissioinService.ProcessRequest(HttpContext context) 位置 E:\UserPermission\UserPermission.ApiService\PermissioinService.ashx.cs:行号 110
+2012-01-11 11:32:04:
+权限接口内部错误
+
+System.FormatException: 索引(从零开始)必须大于或等于零，且小于参数列表的大小。
+   在 System.Text.StringBuilder.AppendFormat(IFormatProvider provider, String format, Object[] args)
+   在 System.String.Format(IFormatProvider provider, String format, Object[] args)
+   在 System.String.Format(String format, Object[] args)
+   在 UserPermission.Bll.CompanyFunBusiness.GetAccountFunMenu(Int32 nAccountId, Int32 nProjectId, Int32 nCompanyId) 位置 E:\UserPermission\UserPermission.Bll\CompanyFunBusiness.cs:行号 23
+   在 UserPermission.ApiService.PermissioinService.AccountLogin(HttpContext context, XmlDocument xmlDoc, ServiceResponse sResponse) 位置 E:\UserPermission\UserPermission.ApiService\PermissioinService.ashx.cs:行号 241
+   在 UserPermission.ApiService.PermissioinService.ProcessRequest(HttpContext context) 位置 E:\UserPermission\UserPermission.ApiService\PermissioinService.ashx.cs:行号 110
+2012-01-11 11:34:33:
+权限接口内部错误
+
+System.FormatException: 索引(从零开始)必须大于或等于零，且小于参数列表的大小。
+   在 System.Text.StringBuilder.AppendFormat(IFormatProvider provider, String format, Object[] args)
+   在 System.String.Format(IFormatProvider provider, String format, Object[] args)
+   在 System.String.Format(String format, Object[] args)
+   在 UserPermission.Bll.CompanyFunBusiness.GetAccountFunMenu(Int32 nAccountId, Int32 nProjectId, Int32 nCompanyId) 位置 E:\UserPermission\UserPermission.Bll\CompanyFunBusiness.cs:行号 23
+   在 UserPermission.ApiService.PermissioinService.AccountLogin(HttpContext context, XmlDocument xmlDoc, ServiceResponse sResponse) 位置 E:\UserPermission\UserPermission.ApiService\PermissioinService.ashx.cs:行号 241
+   在 UserPermission.ApiService.PermissioinService.ProcessRequest(HttpContext context) 位置 E:\UserPermission\UserPermission.ApiService\PermissioinService.ashx.cs:行号 110

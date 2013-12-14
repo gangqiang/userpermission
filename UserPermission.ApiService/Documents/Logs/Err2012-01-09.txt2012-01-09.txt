@@ -1,0 +1,7 @@
+2012-01-09 16:13:32:
+
+客户机IP:127.0.0.1
+错误地址:http://localhost:10146/Default.aspx
+异常信息:请求已超时。
+
+System.Web.HttpException: 请求已超时。

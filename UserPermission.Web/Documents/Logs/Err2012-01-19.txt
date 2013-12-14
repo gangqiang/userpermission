@@ -1,0 +1,801 @@
+2012-01-19 09:03:26:
+
+客户机IP:127.0.0.1
+错误地址:http://localhost:14842/favicon.ico
+异常信息:文件不存在。
+
+System.Web.HttpException: 文件不存在。
+   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2012-01-19 09:03:42:
+
+客户机IP:127.0.0.1
+错误地址:http://localhost:14842/favicon.ico
+异常信息:文件不存在。
+
+System.Web.HttpException: 文件不存在。
+   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2012-01-19 09:28:52:
+
+客户机IP:127.0.0.1
+错误地址:http://localhost:14842/Handler/AjaxHandler.ashx?action=LoadCFunMenu&projectid=0B23FDAB82307235&s=0.7757422219225463
+异常信息:ORA-00933: SQL 命令未正确结束
+
+
+System.Data.OracleClient.OracleException: ORA-00933: SQL 命令未正确结束
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.OracleClient.OracleCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   在 SAMURAI.Data.Connection.OracleConnectionProvider.ExecuteDataSet(String sql, ParamList parameters, CommandType commandType)
+   在 SAMURAI.Data.Connection.OracleConnectionProvider.ExecuteDataTable(String sql, ParamList parameters, CommandType commandType)
+   在 SAMURAI.Data.Connection.ConnectionBuilder.ExecuteDataTable()
+   在 SAMURAI.Data.Connection.StaticConnectionProvider.ExecuteDataTable(String sql)
+   在 UserPermission.Bll.CompanyFunBusiness.GetCompanyFunList(String strWhere) 位置 E:\UserPermission\UserPermission.Bll\CompanyFunBusiness.cs:行号 83
+   在 UserPermission.Web.Handler.AjaxHandler.LoadCFunMenu(HttpContext context) 位置 E:\UserPermission\UserPermission.Web\Handler\AjaxHandler.ashx.cs:行号 90
+   在 UserPermission.Web.Handler.AjaxHandler.ProcessRequest(HttpContext context) 位置 E:\UserPermission\UserPermission.Web\Handler\AjaxHandler.ashx.cs:行号 36
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2012-01-19 09:39:40:
+
+客户机IP:127.0.0.1
+错误地址:http://localhost:14842/Pages/Init/ProjectManage.aspx
+异常信息:e:\UserPermission\UserPermission.Web\Pages\Init\ProjectManage.aspx(71): error CS0117: “UserPermission.Bll.Enc”并不包含“DataBinder”的定义
+
+System.Web.HttpCompileException: e:\UserPermission\UserPermission.Web\Pages\Init\ProjectManage.aspx(71): error CS0117: “UserPermission.Bll.Enc”并不包含“DataBinder”的定义
+   在 System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   在 System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean noAssert)
+   在 System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp, Boolean noAssert)
+   在 System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   在 System.Web.UI.PageHandlerFactory.System.Web.IHttpHandlerFactory2.GetHandler(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   在 System.Web.HttpApplication.MapHttpHandler(HttpContext context, String requestType, VirtualPath path, String pathTranslated, Boolean useAppConfig)
+   在 System.Web.HttpApplication.MapHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2012-01-19 09:46:29:
+
+客户机IP:127.0.0.1
+错误地址:http://localhost:14842/Handler/AjaxHandler.ashx?action=LoadProjectFunMenu&projectid=68E6069A945339AE&s=0.014550491360981743
+异常信息:ORA-01426: 数字溢出
+
+
+System.Data.OracleClient.OracleException: ORA-01426: 数字溢出
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.OracleClient.OracleCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   在 SAMURAI.Data.Connection.OracleConnectionProvider.ExecuteDataSet(String sql, ParamList parameters, CommandType commandType)
+   在 SAMURAI.Data.Connection.OracleConnectionProvider.ExecuteDataTable(String sql, ParamList parameters, CommandType commandType)
+   在 SAMURAI.Data.Connection.ConnectionBuilder.ExecuteDataTable()
+   在 SAMURAI.Data.Connection.StaticConnectionProvider.ExecuteDataTable(String sql)
+   在 UserPermission.Bll.ProjectFunBusiness.GetFunMenuList(String strWhere) 位置 E:\UserPermission\UserPermission.Bll\ProjectFunBusiness.cs:行号 206
+   在 UserPermission.Web.Handler.AjaxHandler.LoadProjectFunMenu(HttpContext context) 位置 E:\UserPermission\UserPermission.Web\Handler\AjaxHandler.ashx.cs:行号 252
+   在 UserPermission.Web.Handler.AjaxHandler.ProcessRequest(HttpContext context) 位置 E:\UserPermission\UserPermission.Web\Handler\AjaxHandler.ashx.cs:行号 33
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2012-01-19 09:46:32:
+
+客户机IP:127.0.0.1
+错误地址:http://localhost:14842/Handler/AjaxHandler.ashx?action=LoadProjectFunMenu&projectid=1F3E16E23600FED7&s=0.9198173098133353
+异常信息:ORA-00933: SQL 命令未正确结束
+
+
+System.Data.OracleClient.OracleException: ORA-00933: SQL 命令未正确结束
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.OracleClient.OracleCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   在 SAMURAI.Data.Connection.OracleConnectionProvider.ExecuteDataSet(String sql, ParamList parameters, CommandType commandType)
+   在 SAMURAI.Data.Connection.OracleConnectionProvider.ExecuteDataTable(String sql, ParamList parameters, CommandType commandType)
+   在 SAMURAI.Data.Connection.ConnectionBuilder.ExecuteDataTable()
+   在 SAMURAI.Data.Connection.StaticConnectionProvider.ExecuteDataTable(String sql)
+   在 UserPermission.Bll.ProjectFunBusiness.GetFunMenuList(String strWhere) 位置 E:\UserPermission\UserPermission.Bll\ProjectFunBusiness.cs:行号 206
+   在 UserPermission.Web.Handler.AjaxHandler.LoadProjectFunMenu(HttpContext context) 位置 E:\UserPermission\UserPermission.Web\Handler\AjaxHandler.ashx.cs:行号 252
+   在 UserPermission.Web.Handler.AjaxHandler.ProcessRequest(HttpContext context) 位置 E:\UserPermission\UserPermission.Web\Handler\AjaxHandler.ashx.cs:行号 33
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2012-01-19 10:03:08:
+
+客户机IP:127.0.0.1
+错误地址:http://localhost:14842/Pages/Init/ProjectFunManage.aspx?pid=21&s=2103213618
+异常信息:引发类型为“System.Web.HttpUnhandledException”的异常。
+
+System.Web.HttpUnhandledException: 引发类型为“System.Web.HttpUnhandledException”的异常。 ---> System.Security.Cryptography.CryptographicException: 要解密的数据的长度无效。
+   在 System.Security.Cryptography.CryptoAPITransform.TransformFinalBlock(Byte[] inputBuffer, Int32 inputOffset, Int32 inputCount)
+   在 System.Security.Cryptography.CryptoStream.FlushFinalBlock()
+   在 UserPermission.Bll.Enc.Decrypt(String pToDecrypt, String sKey) 位置 E:\UserPermission\UserPermission.Bll\Enc.cs:行号 75
+   在 UserPermission.Web.Pages.Init.ProjectFunManage.Page_Load(Object sender, EventArgs e) 位置 E:\UserPermission\UserPermission.Web\Pages\Init\ProjectFunManage.aspx.cs:行号 28
+   在 System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Web.UI.Page.HandleError(Exception e)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.pages_init_projectfunmanage_aspx.ProcessRequest(HttpContext context) 位置 c:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\Temporary ASP.NET Files\root\8e0ff3e7\ec337220\App_Web_w0o_d_pq.6.cs:行号 0
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2012-01-19 10:04:01:
+
+客户机IP:127.0.0.1
+错误地址:http://localhost:14842/Pages/Init/ProjectFunManage.aspx?pid=21&s=2103213618
+异常信息:引发类型为“System.Web.HttpUnhandledException”的异常。
+
+System.Web.HttpUnhandledException: 引发类型为“System.Web.HttpUnhandledException”的异常。 ---> System.Security.Cryptography.CryptographicException: 要解密的数据的长度无效。
+   在 System.Security.Cryptography.CryptoAPITransform.TransformFinalBlock(Byte[] inputBuffer, Int32 inputOffset, Int32 inputCount)
+   在 System.Security.Cryptography.CryptoStream.FlushFinalBlock()
+   在 UserPermission.Bll.Enc.Decrypt(String pToDecrypt, String sKey) 位置 E:\UserPermission\UserPermission.Bll\Enc.cs:行号 75
+   在 UserPermission.Web.Pages.Init.ProjectFunManage.Page_Load(Object sender, EventArgs e) 位置 E:\UserPermission\UserPermission.Web\Pages\Init\ProjectFunManage.aspx.cs:行号 28
+   在 System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Web.UI.Page.HandleError(Exception e)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.pages_init_projectfunmanage_aspx.ProcessRequest(HttpContext context) 位置 c:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\Temporary ASP.NET Files\root\8e0ff3e7\ec337220\App_Web_efoq9qfz.3.cs:行号 0
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2012-01-19 10:04:08:
+
+客户机IP:127.0.0.1
+错误地址:http://localhost:14842/Pages/Init/ProjectFunManage.aspx?pid=21&s=2103213618
+异常信息:引发类型为“System.Web.HttpUnhandledException”的异常。
+
+System.Web.HttpUnhandledException: 引发类型为“System.Web.HttpUnhandledException”的异常。 ---> System.Security.Cryptography.CryptographicException: 要解密的数据的长度无效。
+   在 System.Security.Cryptography.CryptoAPITransform.TransformFinalBlock(Byte[] inputBuffer, Int32 inputOffset, Int32 inputCount)
+   在 System.Security.Cryptography.CryptoStream.FlushFinalBlock()
+   在 UserPermission.Bll.Enc.Decrypt(String pToDecrypt, String sKey) 位置 E:\UserPermission\UserPermission.Bll\Enc.cs:行号 75
+   在 UserPermission.Web.Pages.Init.ProjectFunManage.Page_Load(Object sender, EventArgs e) 位置 E:\UserPermission\UserPermission.Web\Pages\Init\ProjectFunManage.aspx.cs:行号 28
+   在 System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Web.UI.Page.HandleError(Exception e)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.pages_init_projectfunmanage_aspx.ProcessRequest(HttpContext context) 位置 c:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\Temporary ASP.NET Files\root\8e0ff3e7\ec337220\App_Web_efoq9qfz.3.cs:行号 0
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2012-01-19 10:35:12:
+
+客户机IP:127.0.0.1
+错误地址:http://localhost:14842/Pages/Init/CompanyRelateManage.aspx
+异常信息:e:\UserPermission\UserPermission.Web\Pages\Init\CompanyRelateManage.aspx(75): error CS0234: 命名空间“UserPermission”中不存在类型或命名空间名称“Enc”(是缺少程序集引用吗?)
+
+System.Web.HttpCompileException: e:\UserPermission\UserPermission.Web\Pages\Init\CompanyRelateManage.aspx(75): error CS0234: 命名空间“UserPermission”中不存在类型或命名空间名称“Enc”(是缺少程序集引用吗?)
+   在 System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   在 System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean noAssert)
+   在 System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp, Boolean noAssert)
+   在 System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   在 System.Web.UI.PageHandlerFactory.System.Web.IHttpHandlerFactory2.GetHandler(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   在 System.Web.HttpApplication.MapHttpHandler(HttpContext context, String requestType, VirtualPath path, String pathTranslated, Boolean useAppConfig)
+   在 System.Web.HttpApplication.MapHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2012-01-19 11:57:07:
+
+客户机IP:127.0.0.1
+错误地址:http://localhost:14842/Pages/Service/CompanyGroupManage.aspx
+异常信息:引发类型为“System.Web.HttpUnhandledException”的异常。
+
+System.Web.HttpUnhandledException: 引发类型为“System.Web.HttpUnhandledException”的异常。 ---> System.InvalidCastException: 无法将类型为“ASP.pages_service_companygroupmanage_aspx”的对象强制转换为类型“BasePage”。
+   在 SiteMaster.LoadNavigation() 位置 E:\UserPermission\UserPermission.Web\Site.master.cs:行号 27
+   在 SiteMaster.Page_Load(Object sender, EventArgs e) 位置 E:\UserPermission\UserPermission.Web\Site.master.cs:行号 17
+   在 System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Web.UI.Page.HandleError(Exception e)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.pages_service_companygroupmanage_aspx.ProcessRequest(HttpContext context) 位置 c:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\Temporary ASP.NET Files\root\8e0ff3e7\ec337220\App_Web_companygroupmanage.aspx.d084fa1a.pfggg-ge.0.cs:行号 0
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2012-01-19 13:31:30:
+
+客户机IP:127.0.0.1
+错误地址:http://localhost:14842/Pages/Service/CompanyGroupManage.aspx
+异常信息:e:\UserPermission\UserPermission.Web\Pages\Service\CompanyGroupManage.aspx(343): error CS0103: 当前上下文中不存在名称“ddlProject”
+
+System.Web.HttpCompileException: e:\UserPermission\UserPermission.Web\Pages\Service\CompanyGroupManage.aspx(343): error CS0103: 当前上下文中不存在名称“ddlProject”
+   在 System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   在 System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean noAssert)
+   在 System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp, Boolean noAssert)
+   在 System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   在 System.Web.UI.PageHandlerFactory.System.Web.IHttpHandlerFactory2.GetHandler(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   在 System.Web.HttpApplication.MapHttpHandler(HttpContext context, String requestType, VirtualPath path, String pathTranslated, Boolean useAppConfig)
+   在 System.Web.HttpApplication.MapHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2012-01-19 13:38:24:
+
+客户机IP:127.0.0.1
+错误地址:http://localhost:14842/Pages/Service/CompanyGroupManage.aspx
+异常信息:e:\UserPermission\UserPermission.Web\Pages\Service\CompanyGroupManage.aspx(306): error CS0103: 当前上下文中不存在名称“hidGroupId”
+
+System.Web.HttpCompileException: e:\UserPermission\UserPermission.Web\Pages\Service\CompanyGroupManage.aspx(306): error CS0103: 当前上下文中不存在名称“hidGroupId”
+   在 System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile)
+   在 System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean noAssert)
+   在 System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp, Boolean noAssert)
+   在 System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   在 System.Web.UI.PageHandlerFactory.System.Web.IHttpHandlerFactory2.GetHandler(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   在 System.Web.HttpApplication.MapHttpHandler(HttpContext context, String requestType, VirtualPath path, String pathTranslated, Boolean useAppConfig)
+   在 System.Web.HttpApplication.MapHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2012-01-19 13:38:36:
+
+客户机IP:127.0.0.1
+错误地址:http://localhost:14842/Handler/AjaxHandler.ashx?action=LoadCFunMenu&s=0.5304646984615569
+异常信息:未将对象引用设置到对象的实例。
+
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 UserPermission.Web.Handler.AjaxHandler.LoadCFunMenu(HttpContext context) 位置 E:\UserPermission\UserPermission.Web\Handler\AjaxHandler.ashx.cs:行号 80
+   在 UserPermission.Web.Handler.AjaxHandler.ProcessRequest(HttpContext context) 位置 E:\UserPermission\UserPermission.Web\Handler\AjaxHandler.ashx.cs:行号 36
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2012-01-19 13:41:10:
+
+客户机IP:127.0.0.1
+错误地址:http://localhost:14842/Handler/AjaxHandler.ashx?action=LoadCFunMenu&s=0.7804987033431472
+异常信息:未将对象引用设置到对象的实例。
+
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 UserPermission.Web.Handler.AjaxHandler.LoadCFunMenu(HttpContext context) 位置 E:\UserPermission\UserPermission.Web\Handler\AjaxHandler.ashx.cs:行号 80
+   在 UserPermission.Web.Handler.AjaxHandler.ProcessRequest(HttpContext context) 位置 E:\UserPermission\UserPermission.Web\Handler\AjaxHandler.ashx.cs:行号 36
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2012-01-19 13:41:12:
+
+客户机IP:127.0.0.1
+错误地址:http://localhost:14842/Handler/AjaxHandler.ashx?action=LoadCFunMenu&s=0.7307646615013474
+异常信息:未将对象引用设置到对象的实例。
+
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 UserPermission.Web.Handler.AjaxHandler.LoadCFunMenu(HttpContext context) 位置 E:\UserPermission\UserPermission.Web\Handler\AjaxHandler.ashx.cs:行号 80
+   在 UserPermission.Web.Handler.AjaxHandler.ProcessRequest(HttpContext context) 位置 E:\UserPermission\UserPermission.Web\Handler\AjaxHandler.ashx.cs:行号 36
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2012-01-19 13:43:10:
+
+客户机IP:127.0.0.1
+错误地址:http://localhost:14842/Handler/AjaxHandler.ashx?action=LoadCFunMenu&s=0.15083060040201934
+异常信息:未将对象引用设置到对象的实例。
+
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 UserPermission.Web.Handler.AjaxHandler.LoadCFunMenu(HttpContext context) 位置 E:\UserPermission\UserPermission.Web\Handler\AjaxHandler.ashx.cs:行号 80
+   在 UserPermission.Web.Handler.AjaxHandler.ProcessRequest(HttpContext context) 位置 E:\UserPermission\UserPermission.Web\Handler\AjaxHandler.ashx.cs:行号 36
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2012-01-19 13:43:20:
+
+客户机IP:127.0.0.1
+错误地址:http://localhost:14842/Handler/AjaxHandler.ashx?action=LoadCFunMenu&s=0.4604353235193153
+异常信息:未将对象引用设置到对象的实例。
+
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 UserPermission.Web.Handler.AjaxHandler.LoadCFunMenu(HttpContext context) 位置 E:\UserPermission\UserPermission.Web\Handler\AjaxHandler.ashx.cs:行号 80
+   在 UserPermission.Web.Handler.AjaxHandler.ProcessRequest(HttpContext context) 位置 E:\UserPermission\UserPermission.Web\Handler\AjaxHandler.ashx.cs:行号 36
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2012-01-19 13:43:23:
+
+客户机IP:127.0.0.1
+错误地址:http://localhost:14842/Pages/Service/CompanyGroupAdd.aspx?type=main
+异常信息:引发类型为“System.Web.HttpUnhandledException”的异常。
+
+System.Web.HttpUnhandledException: 引发类型为“System.Web.HttpUnhandledException”的异常。 ---> System.Data.OracleClient.OracleException: ORA-00904: "GROUPID": 标识符无效
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.OracleClient.OracleCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   在 SAMURAI.Data.Connection.OracleConnectionProvider.ExecuteDataSet(String sql, ParamList parameters, CommandType commandType)
+   在 SAMURAI.Data.Connection.OracleConnectionProvider.ExecuteDataTable(String sql, ParamList parameters, CommandType commandType)
+   在 SAMURAI.Data.Connection.ConnectionBuilder.ExecuteDataTable()
+   在 SAMURAI.Data.Connection.StaticConnectionProvider.ExecuteDataTable(String sql, String constrName)
+   在 UserPermission.Bll.PlatFormBusiness.GetVechiles(String strGroupId) 位置 E:\UserPermission\UserPermission.Bll\PlatFormBusiness.cs:行号 73
+   在 UserPermission.Web.Pages.Service.CompanyGroupAdd.Page_Load(Object sender, EventArgs e) 位置 E:\UserPermission\UserPermission.Web\Pages\Service\CompanyGroupAdd.aspx.cs:行号 24
+   在 System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Web.UI.Page.HandleError(Exception e)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.pages_service_companygroupadd_aspx.ProcessRequest(HttpContext context) 位置 c:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\Temporary ASP.NET Files\root\8e0ff3e7\ec337220\App_Web_jpp5ilfg.2.cs:行号 0
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2012-01-19 13:47:18:
+
+客户机IP:127.0.0.1
+错误地址:http://localhost:14842/Handler/AjaxHandler.ashx?action=LoadCFunMenu&s=0.5784902701499546
+异常信息:未将对象引用设置到对象的实例。
+
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 UserPermission.Web.Handler.AjaxHandler.LoadCFunMenu(HttpContext context) 位置 E:\UserPermission\UserPermission.Web\Handler\AjaxHandler.ashx.cs:行号 80
+   在 UserPermission.Web.Handler.AjaxHandler.ProcessRequest(HttpContext context) 位置 E:\UserPermission\UserPermission.Web\Handler\AjaxHandler.ashx.cs:行号 36
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2012-01-19 13:50:28:
+
+客户机IP:127.0.0.1
+错误地址:http://localhost:14842/Handler/AjaxHandler.ashx?action=LoadCFunMenu&s=0.7582577445664451
+异常信息:未将对象引用设置到对象的实例。
+
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 UserPermission.Web.Handler.AjaxHandler.LoadCFunMenu(HttpContext context) 位置 E:\UserPermission\UserPermission.Web\Handler\AjaxHandler.ashx.cs:行号 80
+   在 UserPermission.Web.Handler.AjaxHandler.ProcessRequest(HttpContext context) 位置 E:\UserPermission\UserPermission.Web\Handler\AjaxHandler.ashx.cs:行号 36
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2012-01-19 13:51:41:
+
+客户机IP:127.0.0.1
+错误地址:http://localhost:14842/Handler/AjaxHandler.ashx?action=LoadCFunMenu&s=0.14868907105952012
+异常信息:未将对象引用设置到对象的实例。
+
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 UserPermission.Web.Handler.AjaxHandler.LoadCFunMenu(HttpContext context) 位置 E:\UserPermission\UserPermission.Web\Handler\AjaxHandler.ashx.cs:行号 80
+   在 UserPermission.Web.Handler.AjaxHandler.ProcessRequest(HttpContext context) 位置 E:\UserPermission\UserPermission.Web\Handler\AjaxHandler.ashx.cs:行号 36
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2012-01-19 14:01:45:
+
+客户机IP:127.0.0.1
+错误地址:http://localhost:14842/Handler/AjaxHandler.ashx?action=LoadCFunMenu&s=0.6529244181687732
+异常信息:未将对象引用设置到对象的实例。
+
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 UserPermission.Web.Handler.AjaxHandler.LoadCFunMenu(HttpContext context) 位置 E:\UserPermission\UserPermission.Web\Handler\AjaxHandler.ashx.cs:行号 80
+   在 UserPermission.Web.Handler.AjaxHandler.ProcessRequest(HttpContext context) 位置 E:\UserPermission\UserPermission.Web\Handler\AjaxHandler.ashx.cs:行号 36
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2012-01-19 15:24:36:
+新增公司车辆分组信息时发生错误，分组名称：分组A
+
+System.Data.OracleClient.OracleException: ORA-00001: 违反唯一约束条件 (USP.PK_USER_SHARE_GROUP)
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 SAMURAI.Data.Connection.OracleConnectionProvider.ExecuteNonQuery(String sql, ParamList parameters, CommandType commandType)
+   在 SAMURAI.Data.Connection.OracleConnectionProvider.ExecuteNonQuery(String sql, ParamList parameters)
+   在 UserPermission.Bll.CompanyGroupBusiness.AddCompanyGroup(USER_SHARE_GROUPMODEL groupModel, List`1 lstVgModel, USER_SHARE_LOGMODEL log) 位置 E:\UserPermission\UserPermission.Bll\CompanyGroupBusiness.cs:行号 43
+2012-01-19 15:24:37:
+
+客户机IP:127.0.0.1
+错误地址:http://localhost:14842/Pages/Service/CompanyGroupAdd.aspx?type=main
+异常信息:引发类型为“System.Web.HttpUnhandledException”的异常。
+
+System.Web.HttpUnhandledException: 引发类型为“System.Web.HttpUnhandledException”的异常。 ---> System.FormatException: 索引(从零开始)必须大于或等于零，且小于参数列表的大小。
+   在 System.Text.StringBuilder.AppendFormat(IFormatProvider provider, String format, Object[] args)
+   在 System.String.Format(IFormatProvider provider, String format, Object[] args)
+   在 System.String.Format(String format, Object arg0)
+   在 UserPermission.Web.Pages.Service.CompanyGroupAdd.btnSave_Click(Object sender, EventArgs e) 位置 E:\UserPermission\UserPermission.Web\Pages\Service\CompanyGroupAdd.aspx.cs:行号 140
+   在 System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   在 System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Web.UI.Page.HandleError(Exception e)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.pages_service_companygroupadd_aspx.ProcessRequest(HttpContext context) 位置 c:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\Temporary ASP.NET Files\root\8e0ff3e7\ec337220\App_Web_voaomur6.6.cs:行号 0
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2012-01-19 15:25:34:
+新增公司车辆分组信息时发生错误，分组名称：分组A
+
+System.Data.OracleClient.OracleException: ORA-00001: 违反唯一约束条件 (USP.PK_USER_SHARE_GROUP)
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 SAMURAI.Data.Connection.OracleConnectionProvider.ExecuteNonQuery(String sql, ParamList parameters, CommandType commandType)
+   在 SAMURAI.Data.Connection.OracleConnectionProvider.ExecuteNonQuery(String sql, ParamList parameters)
+   在 UserPermission.Bll.CompanyGroupBusiness.AddCompanyGroup(USER_SHARE_GROUPMODEL groupModel, List`1 lstVgModel, USER_SHARE_LOGMODEL log) 位置 E:\UserPermission\UserPermission.Bll\CompanyGroupBusiness.cs:行号 43
+2012-01-19 15:25:36:
+
+客户机IP:127.0.0.1
+错误地址:http://localhost:14842/Handler/AjaxHandler.ashx?action=LoadCFunMenu&s=0.6033694941297543
+异常信息:未将对象引用设置到对象的实例。
+
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 UserPermission.Web.Handler.AjaxHandler.LoadCFunMenu(HttpContext context) 位置 E:\UserPermission\UserPermission.Web\Handler\AjaxHandler.ashx.cs:行号 80
+   在 UserPermission.Web.Handler.AjaxHandler.ProcessRequest(HttpContext context) 位置 E:\UserPermission\UserPermission.Web\Handler\AjaxHandler.ashx.cs:行号 36
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2012-01-19 15:26:58:
+新增公司车辆分组信息时发生错误，分组名称：分组A
+
+System.Data.OracleClient.OracleException: ORA-01036: 非法的变量名/编号
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleParameterBinding.Bind(OciStatementHandle statementHandle, NativeBuffer parameterBuffer, OracleConnection connection, Boolean& mustRelease, SafeHandle& handleToBind)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQueryInternal(Boolean needRowid, OciRowidDescriptor& rowidDescriptor)
+   在 System.Data.OracleClient.OracleCommand.ExecuteNonQuery()
+   在 SAMURAI.Data.Connection.OracleConnectionProvider.ExecuteNonQuery(String sql, ParamList parameters, CommandType commandType)
+   在 SAMURAI.Data.Connection.OracleConnectionProvider.ExecuteNonQuery(String sql, ParamList parameters)
+   在 UserPermission.Bll.CompanyGroupBusiness.AddCompanyGroup(USER_SHARE_GROUPMODEL groupModel, List`1 lstVgModel, USER_SHARE_LOGMODEL log) 位置 E:\UserPermission\UserPermission.Bll\CompanyGroupBusiness.cs:行号 74
+2012-01-19 15:26:59:
+
+客户机IP:127.0.0.1
+错误地址:http://localhost:14842/Handler/AjaxHandler.ashx?action=LoadCFunMenu&s=0.3358256133455798
+异常信息:未将对象引用设置到对象的实例。
+
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 UserPermission.Web.Handler.AjaxHandler.LoadCFunMenu(HttpContext context) 位置 E:\UserPermission\UserPermission.Web\Handler\AjaxHandler.ashx.cs:行号 80
+   在 UserPermission.Web.Handler.AjaxHandler.ProcessRequest(HttpContext context) 位置 E:\UserPermission\UserPermission.Web\Handler\AjaxHandler.ashx.cs:行号 36
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2012-01-19 15:28:16:
+
+客户机IP:127.0.0.1
+错误地址:http://localhost:14842/Handler/AjaxHandler.ashx?action=LoadCFunMenu&s=0.6483964847589725
+异常信息:未将对象引用设置到对象的实例。
+
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 UserPermission.Web.Handler.AjaxHandler.LoadCFunMenu(HttpContext context) 位置 E:\UserPermission\UserPermission.Web\Handler\AjaxHandler.ashx.cs:行号 80
+   在 UserPermission.Web.Handler.AjaxHandler.ProcessRequest(HttpContext context) 位置 E:\UserPermission\UserPermission.Web\Handler\AjaxHandler.ashx.cs:行号 36
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2012-01-19 15:45:00:
+
+客户机IP:127.0.0.1
+错误地址:http://localhost:14842/Handler/AjaxHandler.ashx?action=LoadCompanyGroup&s=0.062184208451732836
+异常信息:无法找到列 FMSORTNUM。
+
+System.IndexOutOfRangeException: 无法找到列 FMSORTNUM。
+   在 System.Data.DataTable.ParseSortString(String sortString)
+   在 System.Data.Select..ctor(DataTable table, String filterExpression, String sort, DataViewRowState recordStates)
+   在 System.Data.DataTable.Select(String filterExpression, String sort)
+   在 UserPermission.Web.Handler.AjaxHandler.ReConstructionDataTable(DataTable original, DataTable terminate, Int32 parentId) 位置 E:\UserPermission\UserPermission.Web\Handler\AjaxHandler.ashx.cs:行号 303
+   在 UserPermission.Web.Handler.AjaxHandler.LoadCompanyGroup(HttpContext context) 位置 E:\UserPermission\UserPermission.Web\Handler\AjaxHandler.ashx.cs:行号 524
+   在 UserPermission.Web.Handler.AjaxHandler.ProcessRequest(HttpContext context) 位置 E:\UserPermission\UserPermission.Web\Handler\AjaxHandler.ashx.cs:行号 63
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2012-01-19 15:45:55:
+
+客户机IP:127.0.0.1
+错误地址:http://localhost:14842/Handler/AjaxHandler.ashx?action=LoadCompanyGroup&s=0.2464120283269065
+异常信息:无法找到列 FMSORTNUM。
+
+System.IndexOutOfRangeException: 无法找到列 FMSORTNUM。
+   在 System.Data.DataTable.ParseSortString(String sortString)
+   在 System.Data.Select..ctor(DataTable table, String filterExpression, String sort, DataViewRowState recordStates)
+   在 System.Data.DataTable.Select(String filterExpression, String sort)
+   在 UserPermission.Web.Handler.AjaxHandler.ReConstructionDataTable(DataTable original, DataTable terminate, Int32 parentId) 位置 E:\UserPermission\UserPermission.Web\Handler\AjaxHandler.ashx.cs:行号 303
+   在 UserPermission.Web.Handler.AjaxHandler.LoadCompanyGroup(HttpContext context) 位置 E:\UserPermission\UserPermission.Web\Handler\AjaxHandler.ashx.cs:行号 524
+   在 UserPermission.Web.Handler.AjaxHandler.ProcessRequest(HttpContext context) 位置 E:\UserPermission\UserPermission.Web\Handler\AjaxHandler.ashx.cs:行号 63
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2012-01-19 15:50:10:
+
+客户机IP:127.0.0.1
+错误地址:http://localhost:14842/Handler/AjaxHandler.ashx?action=LoadCompanyGroup&s=0.161794810695697
+异常信息:无法找到列 FMSORTNUM。
+
+System.IndexOutOfRangeException: 无法找到列 FMSORTNUM。
+   在 System.Data.DataTable.ParseSortString(String sortString)
+   在 System.Data.Select..ctor(DataTable table, String filterExpression, String sort, DataViewRowState recordStates)
+   在 System.Data.DataTable.Select(String filterExpression, String sort)
+   在 UserPermission.Web.Handler.AjaxHandler.ReConstructionDataTable(DataTable original, DataTable terminate, Int32 parentId) 位置 E:\UserPermission\UserPermission.Web\Handler\AjaxHandler.ashx.cs:行号 303
+   在 UserPermission.Web.Handler.AjaxHandler.ReConstructionCompanyGroupDataTable(DataTable original, DataTable terminate, Int32 parentId) 位置 E:\UserPermission\UserPermission.Web\Handler\AjaxHandler.ashx.cs:行号 577
+   在 UserPermission.Web.Handler.AjaxHandler.LoadCompanyGroup(HttpContext context) 位置 E:\UserPermission\UserPermission.Web\Handler\AjaxHandler.ashx.cs:行号 524
+   在 UserPermission.Web.Handler.AjaxHandler.ProcessRequest(HttpContext context) 位置 E:\UserPermission\UserPermission.Web\Handler\AjaxHandler.ashx.cs:行号 63
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2012-01-19 15:50:15:
+
+客户机IP:127.0.0.1
+错误地址:http://localhost:14842/Handler/AjaxHandler.ashx?action=LoadCompanyGroup&s=0.46003643842026553
+异常信息:无法找到列 FMSORTNUM。
+
+System.IndexOutOfRangeException: 无法找到列 FMSORTNUM。
+   在 System.Data.DataTable.ParseSortString(String sortString)
+   在 System.Data.Select..ctor(DataTable table, String filterExpression, String sort, DataViewRowState recordStates)
+   在 System.Data.DataTable.Select(String filterExpression, String sort)
+   在 UserPermission.Web.Handler.AjaxHandler.ReConstructionDataTable(DataTable original, DataTable terminate, Int32 parentId) 位置 E:\UserPermission\UserPermission.Web\Handler\AjaxHandler.ashx.cs:行号 303
+   在 UserPermission.Web.Handler.AjaxHandler.ReConstructionCompanyGroupDataTable(DataTable original, DataTable terminate, Int32 parentId) 位置 E:\UserPermission\UserPermission.Web\Handler\AjaxHandler.ashx.cs:行号 577
+   在 UserPermission.Web.Handler.AjaxHandler.LoadCompanyGroup(HttpContext context) 位置 E:\UserPermission\UserPermission.Web\Handler\AjaxHandler.ashx.cs:行号 524
+   在 UserPermission.Web.Handler.AjaxHandler.ProcessRequest(HttpContext context) 位置 E:\UserPermission\UserPermission.Web\Handler\AjaxHandler.ashx.cs:行号 63
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2012-01-19 15:50:17:
+
+客户机IP:127.0.0.1
+错误地址:http://localhost:14842/Handler/AjaxHandler.ashx?action=LoadCompanyGroup&s=0.5542603437868441
+异常信息:无法找到列 FMSORTNUM。
+
+System.IndexOutOfRangeException: 无法找到列 FMSORTNUM。
+   在 System.Data.DataTable.ParseSortString(String sortString)
+   在 System.Data.Select..ctor(DataTable table, String filterExpression, String sort, DataViewRowState recordStates)
+   在 System.Data.DataTable.Select(String filterExpression, String sort)
+   在 UserPermission.Web.Handler.AjaxHandler.ReConstructionDataTable(DataTable original, DataTable terminate, Int32 parentId) 位置 E:\UserPermission\UserPermission.Web\Handler\AjaxHandler.ashx.cs:行号 303
+   在 UserPermission.Web.Handler.AjaxHandler.ReConstructionCompanyGroupDataTable(DataTable original, DataTable terminate, Int32 parentId) 位置 E:\UserPermission\UserPermission.Web\Handler\AjaxHandler.ashx.cs:行号 577
+   在 UserPermission.Web.Handler.AjaxHandler.LoadCompanyGroup(HttpContext context) 位置 E:\UserPermission\UserPermission.Web\Handler\AjaxHandler.ashx.cs:行号 524
+   在 UserPermission.Web.Handler.AjaxHandler.ProcessRequest(HttpContext context) 位置 E:\UserPermission\UserPermission.Web\Handler\AjaxHandler.ashx.cs:行号 63
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2012-01-19 15:50:29:
+
+客户机IP:127.0.0.1
+错误地址:http://localhost:14842/Handler/AjaxHandler.ashx?action=LoadCompanyGroup&s=0.23104389512173823
+异常信息:无法找到列 FMSORTNUM。
+
+System.IndexOutOfRangeException: 无法找到列 FMSORTNUM。
+   在 System.Data.DataTable.ParseSortString(String sortString)
+   在 System.Data.Select..ctor(DataTable table, String filterExpression, String sort, DataViewRowState recordStates)
+   在 System.Data.DataTable.Select(String filterExpression, String sort)
+   在 UserPermission.Web.Handler.AjaxHandler.ReConstructionDataTable(DataTable original, DataTable terminate, Int32 parentId) 位置 E:\UserPermission\UserPermission.Web\Handler\AjaxHandler.ashx.cs:行号 303
+   在 UserPermission.Web.Handler.AjaxHandler.ReConstructionCompanyGroupDataTable(DataTable original, DataTable terminate, Int32 parentId) 位置 E:\UserPermission\UserPermission.Web\Handler\AjaxHandler.ashx.cs:行号 577
+   在 UserPermission.Web.Handler.AjaxHandler.LoadCompanyGroup(HttpContext context) 位置 E:\UserPermission\UserPermission.Web\Handler\AjaxHandler.ashx.cs:行号 524
+   在 UserPermission.Web.Handler.AjaxHandler.ProcessRequest(HttpContext context) 位置 E:\UserPermission\UserPermission.Web\Handler\AjaxHandler.ashx.cs:行号 63
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2012-01-19 15:50:31:
+
+客户机IP:127.0.0.1
+错误地址:http://localhost:14842/Handler/AjaxHandler.ashx?action=LoadCompanyGroup&s=0.6893382145190914
+异常信息:无法找到列 FMSORTNUM。
+
+System.IndexOutOfRangeException: 无法找到列 FMSORTNUM。
+   在 System.Data.DataTable.ParseSortString(String sortString)
+   在 System.Data.Select..ctor(DataTable table, String filterExpression, String sort, DataViewRowState recordStates)
+   在 System.Data.DataTable.Select(String filterExpression, String sort)
+   在 UserPermission.Web.Handler.AjaxHandler.ReConstructionDataTable(DataTable original, DataTable terminate, Int32 parentId) 位置 E:\UserPermission\UserPermission.Web\Handler\AjaxHandler.ashx.cs:行号 303
+   在 UserPermission.Web.Handler.AjaxHandler.ReConstructionCompanyGroupDataTable(DataTable original, DataTable terminate, Int32 parentId) 位置 E:\UserPermission\UserPermission.Web\Handler\AjaxHandler.ashx.cs:行号 577
+   在 UserPermission.Web.Handler.AjaxHandler.LoadCompanyGroup(HttpContext context) 位置 E:\UserPermission\UserPermission.Web\Handler\AjaxHandler.ashx.cs:行号 524
+   在 UserPermission.Web.Handler.AjaxHandler.ProcessRequest(HttpContext context) 位置 E:\UserPermission\UserPermission.Web\Handler\AjaxHandler.ashx.cs:行号 63
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2012-01-19 15:52:30:
+
+客户机IP:127.0.0.1
+错误地址:http://localhost:14842/Handler/AjaxHandler.ashx?action=LoadCompanyGroup&s=0.4043765181383017
+异常信息:无法找到列 FMSORTNUM。
+
+System.IndexOutOfRangeException: 无法找到列 FMSORTNUM。
+   在 System.Data.DataTable.ParseSortString(String sortString)
+   在 System.Data.Select..ctor(DataTable table, String filterExpression, String sort, DataViewRowState recordStates)
+   在 System.Data.DataTable.Select(String filterExpression, String sort)
+   在 UserPermission.Web.Handler.AjaxHandler.ReConstructionDataTable(DataTable original, DataTable terminate, Int32 parentId) 位置 E:\UserPermission\UserPermission.Web\Handler\AjaxHandler.ashx.cs:行号 303
+   在 UserPermission.Web.Handler.AjaxHandler.ReConstructionCompanyGroupDataTable(DataTable original, DataTable terminate, Int32 parentId) 位置 E:\UserPermission\UserPermission.Web\Handler\AjaxHandler.ashx.cs:行号 577
+   在 UserPermission.Web.Handler.AjaxHandler.LoadCompanyGroup(HttpContext context) 位置 E:\UserPermission\UserPermission.Web\Handler\AjaxHandler.ashx.cs:行号 524
+   在 UserPermission.Web.Handler.AjaxHandler.ProcessRequest(HttpContext context) 位置 E:\UserPermission\UserPermission.Web\Handler\AjaxHandler.ashx.cs:行号 63
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2012-01-19 15:52:31:
+
+客户机IP:127.0.0.1
+错误地址:http://localhost:14842/Handler/AjaxHandler.ashx?action=LoadCompanyGroup&s=0.7411319361325506
+异常信息:无法找到列 FMSORTNUM。
+
+System.IndexOutOfRangeException: 无法找到列 FMSORTNUM。
+   在 System.Data.DataTable.ParseSortString(String sortString)
+   在 System.Data.Select..ctor(DataTable table, String filterExpression, String sort, DataViewRowState recordStates)
+   在 System.Data.DataTable.Select(String filterExpression, String sort)
+   在 UserPermission.Web.Handler.AjaxHandler.ReConstructionDataTable(DataTable original, DataTable terminate, Int32 parentId) 位置 E:\UserPermission\UserPermission.Web\Handler\AjaxHandler.ashx.cs:行号 303
+   在 UserPermission.Web.Handler.AjaxHandler.ReConstructionCompanyGroupDataTable(DataTable original, DataTable terminate, Int32 parentId) 位置 E:\UserPermission\UserPermission.Web\Handler\AjaxHandler.ashx.cs:行号 577
+   在 UserPermission.Web.Handler.AjaxHandler.LoadCompanyGroup(HttpContext context) 位置 E:\UserPermission\UserPermission.Web\Handler\AjaxHandler.ashx.cs:行号 524
+   在 UserPermission.Web.Handler.AjaxHandler.ProcessRequest(HttpContext context) 位置 E:\UserPermission\UserPermission.Web\Handler\AjaxHandler.ashx.cs:行号 63
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2012-01-19 15:52:32:
+
+客户机IP:127.0.0.1
+错误地址:http://localhost:14842/Handler/AjaxHandler.ashx?action=LoadCompanyGroup&s=0.22861532346636826
+异常信息:无法找到列 FMSORTNUM。
+
+System.IndexOutOfRangeException: 无法找到列 FMSORTNUM。
+   在 System.Data.DataTable.ParseSortString(String sortString)
+   在 System.Data.Select..ctor(DataTable table, String filterExpression, String sort, DataViewRowState recordStates)
+   在 System.Data.DataTable.Select(String filterExpression, String sort)
+   在 UserPermission.Web.Handler.AjaxHandler.ReConstructionDataTable(DataTable original, DataTable terminate, Int32 parentId) 位置 E:\UserPermission\UserPermission.Web\Handler\AjaxHandler.ashx.cs:行号 303
+   在 UserPermission.Web.Handler.AjaxHandler.ReConstructionCompanyGroupDataTable(DataTable original, DataTable terminate, Int32 parentId) 位置 E:\UserPermission\UserPermission.Web\Handler\AjaxHandler.ashx.cs:行号 577
+   在 UserPermission.Web.Handler.AjaxHandler.LoadCompanyGroup(HttpContext context) 位置 E:\UserPermission\UserPermission.Web\Handler\AjaxHandler.ashx.cs:行号 524
+   在 UserPermission.Web.Handler.AjaxHandler.ProcessRequest(HttpContext context) 位置 E:\UserPermission\UserPermission.Web\Handler\AjaxHandler.ashx.cs:行号 63
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2012-01-19 15:52:32:
+
+客户机IP:127.0.0.1
+错误地址:http://localhost:14842/Handler/AjaxHandler.ashx?action=LoadCompanyGroup&s=0.05077509077585818
+异常信息:无法找到列 FMSORTNUM。
+
+System.IndexOutOfRangeException: 无法找到列 FMSORTNUM。
+   在 System.Data.DataTable.ParseSortString(String sortString)
+   在 System.Data.Select..ctor(DataTable table, String filterExpression, String sort, DataViewRowState recordStates)
+   在 System.Data.DataTable.Select(String filterExpression, String sort)
+   在 UserPermission.Web.Handler.AjaxHandler.ReConstructionDataTable(DataTable original, DataTable terminate, Int32 parentId) 位置 E:\UserPermission\UserPermission.Web\Handler\AjaxHandler.ashx.cs:行号 303
+   在 UserPermission.Web.Handler.AjaxHandler.ReConstructionCompanyGroupDataTable(DataTable original, DataTable terminate, Int32 parentId) 位置 E:\UserPermission\UserPermission.Web\Handler\AjaxHandler.ashx.cs:行号 577
+   在 UserPermission.Web.Handler.AjaxHandler.LoadCompanyGroup(HttpContext context) 位置 E:\UserPermission\UserPermission.Web\Handler\AjaxHandler.ashx.cs:行号 524
+   在 UserPermission.Web.Handler.AjaxHandler.ProcessRequest(HttpContext context) 位置 E:\UserPermission\UserPermission.Web\Handler\AjaxHandler.ashx.cs:行号 63
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2012-01-19 15:52:33:
+
+客户机IP:127.0.0.1
+错误地址:http://localhost:14842/Handler/AjaxHandler.ashx?action=LoadCompanyGroup&s=0.7497853219837478
+异常信息:无法找到列 FMSORTNUM。
+
+System.IndexOutOfRangeException: 无法找到列 FMSORTNUM。
+   在 System.Data.DataTable.ParseSortString(String sortString)
+   在 System.Data.Select..ctor(DataTable table, String filterExpression, String sort, DataViewRowState recordStates)
+   在 System.Data.DataTable.Select(String filterExpression, String sort)
+   在 UserPermission.Web.Handler.AjaxHandler.ReConstructionDataTable(DataTable original, DataTable terminate, Int32 parentId) 位置 E:\UserPermission\UserPermission.Web\Handler\AjaxHandler.ashx.cs:行号 303
+   在 UserPermission.Web.Handler.AjaxHandler.ReConstructionCompanyGroupDataTable(DataTable original, DataTable terminate, Int32 parentId) 位置 E:\UserPermission\UserPermission.Web\Handler\AjaxHandler.ashx.cs:行号 577
+   在 UserPermission.Web.Handler.AjaxHandler.LoadCompanyGroup(HttpContext context) 位置 E:\UserPermission\UserPermission.Web\Handler\AjaxHandler.ashx.cs:行号 524
+   在 UserPermission.Web.Handler.AjaxHandler.ProcessRequest(HttpContext context) 位置 E:\UserPermission\UserPermission.Web\Handler\AjaxHandler.ashx.cs:行号 63
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2012-01-19 15:52:33:
+
+客户机IP:127.0.0.1
+错误地址:http://localhost:14842/Handler/AjaxHandler.ashx?action=LoadCompanyGroup&s=0.9605658998409949
+异常信息:无法找到列 FMSORTNUM。
+
+System.IndexOutOfRangeException: 无法找到列 FMSORTNUM。
+   在 System.Data.DataTable.ParseSortString(String sortString)
+   在 System.Data.Select..ctor(DataTable table, String filterExpression, String sort, DataViewRowState recordStates)
+   在 System.Data.DataTable.Select(String filterExpression, String sort)
+   在 UserPermission.Web.Handler.AjaxHandler.ReConstructionDataTable(DataTable original, DataTable terminate, Int32 parentId) 位置 E:\UserPermission\UserPermission.Web\Handler\AjaxHandler.ashx.cs:行号 303
+   在 UserPermission.Web.Handler.AjaxHandler.ReConstructionCompanyGroupDataTable(DataTable original, DataTable terminate, Int32 parentId) 位置 E:\UserPermission\UserPermission.Web\Handler\AjaxHandler.ashx.cs:行号 577
+   在 UserPermission.Web.Handler.AjaxHandler.LoadCompanyGroup(HttpContext context) 位置 E:\UserPermission\UserPermission.Web\Handler\AjaxHandler.ashx.cs:行号 524
+   在 UserPermission.Web.Handler.AjaxHandler.ProcessRequest(HttpContext context) 位置 E:\UserPermission\UserPermission.Web\Handler\AjaxHandler.ashx.cs:行号 63
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2012-01-19 15:52:35:
+
+客户机IP:127.0.0.1
+错误地址:http://localhost:14842/Handler/AjaxHandler.ashx?action=LoadCompanyGroup&s=0.9738765961064335
+异常信息:无法找到列 FMSORTNUM。
+
+System.IndexOutOfRangeException: 无法找到列 FMSORTNUM。
+   在 System.Data.DataTable.ParseSortString(String sortString)
+   在 System.Data.Select..ctor(DataTable table, String filterExpression, String sort, DataViewRowState recordStates)
+   在 System.Data.DataTable.Select(String filterExpression, String sort)
+   在 UserPermission.Web.Handler.AjaxHandler.ReConstructionDataTable(DataTable original, DataTable terminate, Int32 parentId) 位置 E:\UserPermission\UserPermission.Web\Handler\AjaxHandler.ashx.cs:行号 303
+   在 UserPermission.Web.Handler.AjaxHandler.ReConstructionCompanyGroupDataTable(DataTable original, DataTable terminate, Int32 parentId) 位置 E:\UserPermission\UserPermission.Web\Handler\AjaxHandler.ashx.cs:行号 577
+   在 UserPermission.Web.Handler.AjaxHandler.LoadCompanyGroup(HttpContext context) 位置 E:\UserPermission\UserPermission.Web\Handler\AjaxHandler.ashx.cs:行号 524
+   在 UserPermission.Web.Handler.AjaxHandler.ProcessRequest(HttpContext context) 位置 E:\UserPermission\UserPermission.Web\Handler\AjaxHandler.ashx.cs:行号 63
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2012-01-19 15:52:37:
+
+客户机IP:127.0.0.1
+错误地址:http://localhost:14842/Handler/AjaxHandler.ashx?action=LoadCompanyGroup&s=0.459047829310693
+异常信息:无法找到列 FMSORTNUM。
+
+System.IndexOutOfRangeException: 无法找到列 FMSORTNUM。
+   在 System.Data.DataTable.ParseSortString(String sortString)
+   在 System.Data.Select..ctor(DataTable table, String filterExpression, String sort, DataViewRowState recordStates)
+   在 System.Data.DataTable.Select(String filterExpression, String sort)
+   在 UserPermission.Web.Handler.AjaxHandler.ReConstructionDataTable(DataTable original, DataTable terminate, Int32 parentId) 位置 E:\UserPermission\UserPermission.Web\Handler\AjaxHandler.ashx.cs:行号 303
+   在 UserPermission.Web.Handler.AjaxHandler.ReConstructionCompanyGroupDataTable(DataTable original, DataTable terminate, Int32 parentId) 位置 E:\UserPermission\UserPermission.Web\Handler\AjaxHandler.ashx.cs:行号 577
+   在 UserPermission.Web.Handler.AjaxHandler.LoadCompanyGroup(HttpContext context) 位置 E:\UserPermission\UserPermission.Web\Handler\AjaxHandler.ashx.cs:行号 524
+   在 UserPermission.Web.Handler.AjaxHandler.ProcessRequest(HttpContext context) 位置 E:\UserPermission\UserPermission.Web\Handler\AjaxHandler.ashx.cs:行号 63
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2012-01-19 15:52:52:
+
+客户机IP:127.0.0.1
+错误地址:http://localhost:14842/Handler/AjaxHandler.ashx?action=LoadCompanyGroup&s=0.30641921464021493
+异常信息:无法找到列 FMSORTNUM。
+
+System.IndexOutOfRangeException: 无法找到列 FMSORTNUM。
+   在 System.Data.DataTable.ParseSortString(String sortString)
+   在 System.Data.Select..ctor(DataTable table, String filterExpression, String sort, DataViewRowState recordStates)
+   在 System.Data.DataTable.Select(String filterExpression, String sort)
+   在 UserPermission.Web.Handler.AjaxHandler.ReConstructionDataTable(DataTable original, DataTable terminate, Int32 parentId) 位置 E:\UserPermission\UserPermission.Web\Handler\AjaxHandler.ashx.cs:行号 303
+   在 UserPermission.Web.Handler.AjaxHandler.ReConstructionCompanyGroupDataTable(DataTable original, DataTable terminate, Int32 parentId) 位置 E:\UserPermission\UserPermission.Web\Handler\AjaxHandler.ashx.cs:行号 577
+   在 UserPermission.Web.Handler.AjaxHandler.LoadCompanyGroup(HttpContext context) 位置 E:\UserPermission\UserPermission.Web\Handler\AjaxHandler.ashx.cs:行号 524
+   在 UserPermission.Web.Handler.AjaxHandler.ProcessRequest(HttpContext context) 位置 E:\UserPermission\UserPermission.Web\Handler\AjaxHandler.ashx.cs:行号 63
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2012-01-19 15:53:48:
+
+客户机IP:127.0.0.1
+错误地址:http://localhost:14842/Handler/AjaxHandler.ashx?action=LoadCompanyGroup&s=0.6204703097844363
+异常信息:列“FMDESC”不属于表 。
+
+System.ArgumentException: 列“FMDESC”不属于表 。
+   在 System.Data.DataRow.GetDataColumn(String columnName)
+   在 System.Data.DataRow.get_Item(String columnName)
+   在 UserPermission.Web.Handler.AjaxHandler.LoadCompanyGroup(HttpContext context) 位置 E:\UserPermission\UserPermission.Web\Handler\AjaxHandler.ashx.cs:行号 539
+   在 UserPermission.Web.Handler.AjaxHandler.ProcessRequest(HttpContext context) 位置 E:\UserPermission\UserPermission.Web\Handler\AjaxHandler.ashx.cs:行号 63
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2012-01-19 17:13:41:
+
+客户机IP:127.0.0.1
+错误地址:http://localhost:14842/favicon.ico
+异常信息:文件不存在。
+
+System.Web.HttpException: 文件不存在。
+   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2012-01-19 17:13:46:
+
+客户机IP:127.0.0.1
+错误地址:http://localhost:14842/favicon.ico
+异常信息:文件不存在。
+
+System.Web.HttpException: 文件不存在。
+   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
